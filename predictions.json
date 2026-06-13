@@ -1,0 +1,5320 @@
+{
+  "generatedAt": "2026-06-13T08:40:26+08:00",
+  "timezone": "Asia/Shanghai",
+  "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260611-20260628&limit=100",
+  "matches": [
+    {
+      "id": "760417",
+      "kickoffUtc": "2026-06-13T01:00:00Z",
+      "beijingDate": "2026-06-13",
+      "beijingTime": "09:00",
+      "weekday": "周六",
+      "group": "D",
+      "venue": "SoFi Stadium",
+      "home": {
+        "name": "United States",
+        "zh": "美国",
+        "abbr": "USA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
+      },
+      "away": {
+        "name": "Paraguay",
+        "zh": "巴拉圭",
+        "abbr": "PAR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png"
+      },
+      "market": {
+        "source": "DraftKings",
+        "winOdds": 2.05,
+        "drawOdds": 3.2,
+        "lossOdds": 4.1,
+        "margin": 0.0442,
+        "totalLine": 2.5,
+        "overOdds": 2.4,
+        "underOdds": 1.57
+      },
+      "prediction": {
+        "win": 0.4681,
+        "draw": 0.2962,
+        "loss": 0.2357,
+        "homeXg": 1.37,
+        "awayXg": 0.9,
+        "totalXg": 2.27,
+        "over25": 0.3953,
+        "btts": 0.4521,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.1375,
+            "fairOdds": 7.27
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1317,
+            "fairOdds": 7.59
+          },
+          {
+            "score": "0-0",
+            "probability": 0.1138,
+            "fairOdds": 8.79
+          },
+          {
+            "score": "2-0",
+            "probability": 0.0972,
+            "fairOdds": 10.29
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0872,
+            "fairOdds": 11.46
+          }
+        ],
+        "fairOdds": {
+          "win": 2.14,
+          "draw": 3.38,
+          "loss": 4.24
+        }
+      }
+    },
+    {
+      "id": "760420",
+      "kickoffUtc": "2026-06-13T19:00:00Z",
+      "beijingDate": "2026-06-14",
+      "beijingTime": "03:00",
+      "weekday": "周日",
+      "group": "B",
+      "venue": "Levi's Stadium",
+      "home": {
+        "name": "Qatar",
+        "zh": "卡塔尔",
+        "abbr": "QAT",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png"
+      },
+      "away": {
+        "name": "Switzerland",
+        "zh": "瑞士",
+        "abbr": "SUI",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 13.0,
+        "drawOdds": 6.5,
+        "lossOdds": 1.24,
+        "margin": 0.0403,
+        "totalLine": 2.5,
+        "overOdds": 1.69,
+        "underOdds": 2.15
+      },
+      "prediction": {
+        "win": 0.0616,
+        "draw": 0.1602,
+        "loss": 0.7781,
+        "homeXg": 0.55,
+        "awayXg": 2.38,
+        "totalXg": 2.93,
+        "over25": 0.5615,
+        "btts": 0.3883,
+        "pick": "负",
+        "cover": "负",
+        "confidence": "强",
+        "topScore": "0-2",
+        "topScores": [
+          {
+            "score": "0-2",
+            "probability": 0.1515,
+            "fairOdds": 6.6
+          },
+          {
+            "score": "0-1",
+            "probability": 0.1215,
+            "fairOdds": 8.23
+          },
+          {
+            "score": "0-3",
+            "probability": 0.1204,
+            "fairOdds": 8.3
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0829,
+            "fairOdds": 12.06
+          },
+          {
+            "score": "1-1",
+            "probability": 0.0751,
+            "fairOdds": 13.31
+          }
+        ],
+        "fairOdds": {
+          "win": 16.23,
+          "draw": 6.24,
+          "loss": 1.29
+        }
+      }
+    },
+    {
+      "id": "760419",
+      "kickoffUtc": "2026-06-13T22:00:00Z",
+      "beijingDate": "2026-06-14",
+      "beijingTime": "06:00",
+      "weekday": "周日",
+      "group": "C",
+      "venue": "MetLife Stadium",
+      "home": {
+        "name": "Brazil",
+        "zh": "巴西",
+        "abbr": "BRA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png"
+      },
+      "away": {
+        "name": "Morocco",
+        "zh": "摩洛哥",
+        "abbr": "MAR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.67,
+        "drawOdds": 3.8,
+        "lossOdds": 5.5,
+        "margin": 0.045,
+        "totalLine": 2.5,
+        "overOdds": 2.1,
+        "underOdds": 1.74
+      },
+      "prediction": {
+        "win": 0.5729,
+        "draw": 0.2579,
+        "loss": 0.1692,
+        "homeXg": 1.68,
+        "awayXg": 0.81,
+        "totalXg": 2.49,
+        "over25": 0.4549,
+        "btts": 0.4612,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "谨慎",
+        "topScore": "1-0",
+        "topScores": [
+          {
+            "score": "1-0",
+            "probability": 0.13,
+            "fairOdds": 7.69
+          },
+          {
+            "score": "1-1",
+            "probability": 0.1216,
+            "fairOdds": 8.22
+          },
+          {
+            "score": "2-0",
+            "probability": 0.1171,
+            "fairOdds": 8.54
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0949,
+            "fairOdds": 10.54
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0915,
+            "fairOdds": 10.93
+          }
+        ],
+        "fairOdds": {
+          "win": 1.75,
+          "draw": 3.88,
+          "loss": 5.91
+        }
+      }
+    },
+    {
+      "id": "760418",
+      "kickoffUtc": "2026-06-14T01:00:00Z",
+      "beijingDate": "2026-06-14",
+      "beijingTime": "09:00",
+      "weekday": "周日",
+      "group": "C",
+      "venue": "Gillette Stadium",
+      "home": {
+        "name": "Haiti",
+        "zh": "海地",
+        "abbr": "HAI",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png"
+      },
+      "away": {
+        "name": "Scotland",
+        "zh": "苏格兰",
+        "abbr": "SCO",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 6.0,
+        "drawOdds": 4.2,
+        "lossOdds": 1.57,
+        "margin": 0.0411,
+        "totalLine": 2.5,
+        "overOdds": 1.87,
+        "underOdds": 1.91
+      },
+      "prediction": {
+        "win": 0.154,
+        "draw": 0.2368,
+        "loss": 0.6092,
+        "homeXg": 0.83,
+        "awayXg": 1.87,
+        "totalXg": 2.7,
+        "over25": 0.507,
+        "btts": 0.487,
+        "pick": "负",
+        "cover": "负/平",
+        "confidence": "中",
+        "topScore": "0-2",
+        "topScores": [
+          {
+            "score": "0-2",
+            "probability": 0.1169,
+            "fairOdds": 8.55
+          },
+          {
+            "score": "0-1",
+            "probability": 0.1168,
+            "fairOdds": 8.56
+          },
+          {
+            "score": "1-1",
+            "probability": 0.1129,
+            "fairOdds": 8.86
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0976,
+            "fairOdds": 10.24
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0754,
+            "fairOdds": 13.26
+          }
+        ],
+        "fairOdds": {
+          "win": 6.49,
+          "draw": 4.22,
+          "loss": 1.64
+        }
+      }
+    },
+    {
+      "id": "760421",
+      "kickoffUtc": "2026-06-14T04:00:00Z",
+      "beijingDate": "2026-06-14",
+      "beijingTime": "12:00",
+      "weekday": "周日",
+      "group": "D",
+      "venue": "BC Place",
+      "home": {
+        "name": "Australia",
+        "zh": "澳大利亚",
+        "abbr": "AUS",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png"
+      },
+      "away": {
+        "name": "Türkiye",
+        "zh": "土耳其",
+        "abbr": "TUR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 5.0,
+        "drawOdds": 3.85,
+        "lossOdds": 1.71,
+        "margin": 0.0431,
+        "totalLine": 2.5,
+        "overOdds": 2.0,
+        "underOdds": 1.8
+      },
+      "prediction": {
+        "win": 0.1852,
+        "draw": 0.258,
+        "loss": 0.5568,
+        "homeXg": 0.88,
+        "awayXg": 1.69,
+        "totalXg": 2.58,
+        "over25": 0.4759,
+        "btts": 0.4877,
+        "pick": "负",
+        "cover": "负/平",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.1227,
+            "fairOdds": 8.15
+          },
+          {
+            "score": "0-1",
+            "probability": 0.1197,
+            "fairOdds": 8.36
+          },
+          {
+            "score": "0-2",
+            "probability": 0.1091,
+            "fairOdds": 9.16
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0963,
+            "fairOdds": 10.38
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0851,
+            "fairOdds": 11.76
+          }
+        ],
+        "fairOdds": {
+          "win": 5.4,
+          "draw": 3.88,
+          "loss": 1.8
+        }
+      }
+    },
+    {
+      "id": "760422",
+      "kickoffUtc": "2026-06-14T17:00:00Z",
+      "beijingDate": "2026-06-15",
+      "beijingTime": "01:00",
+      "weekday": "周一",
+      "group": "E",
+      "venue": "NRG Stadium",
+      "home": {
+        "name": "Germany",
+        "zh": "德国",
+        "abbr": "GER",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png"
+      },
+      "away": {
+        "name": "Curaçao",
+        "zh": "库拉索",
+        "abbr": "CUW",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.03,
+        "drawOdds": 15.0,
+        "lossOdds": 29.0,
+        "margin": 0.0689,
+        "totalLine": 4.5,
+        "overOdds": 2.1,
+        "underOdds": 1.74
+      },
+      "prediction": {
+        "win": 0.9062,
+        "draw": 0.0686,
+        "loss": 0.0253,
+        "homeXg": 3.79,
+        "awayXg": 0.64,
+        "totalXg": 4.42,
+        "over25": 0.8175,
+        "btts": 0.463,
+        "pick": "胜",
+        "cover": "胜",
+        "confidence": "强",
+        "topScore": "3-0",
+        "topScores": [
+          {
+            "score": "3-0",
+            "probability": 0.1086,
+            "fairOdds": 9.21
+          },
+          {
+            "score": "4-0",
+            "probability": 0.1029,
+            "fairOdds": 9.72
+          },
+          {
+            "score": "2-0",
+            "probability": 0.086,
+            "fairOdds": 11.62
+          },
+          {
+            "score": "5-0",
+            "probability": 0.0779,
+            "fairOdds": 12.83
+          },
+          {
+            "score": "3-1",
+            "probability": 0.0693,
+            "fairOdds": 14.44
+          }
+        ],
+        "fairOdds": {
+          "win": 1.1,
+          "draw": 14.59,
+          "loss": 39.54
+        }
+      }
+    },
+    {
+      "id": "760425",
+      "kickoffUtc": "2026-06-14T20:00:00Z",
+      "beijingDate": "2026-06-15",
+      "beijingTime": "04:00",
+      "weekday": "周一",
+      "group": "F",
+      "venue": "AT&T Stadium",
+      "home": {
+        "name": "Netherlands",
+        "zh": "荷兰",
+        "abbr": "NED",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+      },
+      "away": {
+        "name": "Japan",
+        "zh": "日本",
+        "abbr": "JPN",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.95,
+        "drawOdds": 3.5,
+        "lossOdds": 3.65,
+        "margin": 0.0719,
+        "totalLine": 2.5,
+        "overOdds": 1.91,
+        "underOdds": 1.87
+      },
+      "prediction": {
+        "win": 0.4766,
+        "draw": 0.2707,
+        "loss": 0.2526,
+        "homeXg": 1.57,
+        "awayXg": 1.09,
+        "totalXg": 2.66,
+        "over25": 0.4959,
+        "btts": 0.5343,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.1292,
+            "fairOdds": 7.74
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1007,
+            "fairOdds": 9.93
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0941,
+            "fairOdds": 10.63
+          },
+          {
+            "score": "2-0",
+            "probability": 0.0867,
+            "fairOdds": 11.53
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0797,
+            "fairOdds": 12.55
+          }
+        ],
+        "fairOdds": {
+          "win": 2.1,
+          "draw": 3.69,
+          "loss": 3.96
+        }
+      }
+    },
+    {
+      "id": "760423",
+      "kickoffUtc": "2026-06-14T23:00:00Z",
+      "beijingDate": "2026-06-15",
+      "beijingTime": "07:00",
+      "weekday": "周一",
+      "group": "E",
+      "venue": "Lincoln Financial Field",
+      "home": {
+        "name": "Ivory Coast",
+        "zh": "科特迪瓦",
+        "abbr": "CIV",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png"
+      },
+      "away": {
+        "name": "Ecuador",
+        "zh": "厄瓜多尔",
+        "abbr": "ECU",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 3.6,
+        "drawOdds": 2.85,
+        "lossOdds": 2.45,
+        "margin": 0.0368,
+        "totalLine": 1.5,
+        "overOdds": 1.61,
+        "underOdds": 2.35
+      },
+      "prediction": {
+        "win": 0.2738,
+        "draw": 0.328,
+        "loss": 0.3982,
+        "homeXg": 0.88,
+        "awayXg": 1.11,
+        "totalXg": 1.99,
+        "over25": 0.3199,
+        "btts": 0.4021,
+        "pick": "负",
+        "cover": "负/平",
+        "confidence": "谨慎",
+        "topScore": "0-0",
+        "topScores": [
+          {
+            "score": "0-0",
+            "probability": 0.1477,
+            "fairOdds": 6.77
+          },
+          {
+            "score": "1-1",
+            "probability": 0.1441,
+            "fairOdds": 6.94
+          },
+          {
+            "score": "0-1",
+            "probability": 0.1418,
+            "fairOdds": 7.05
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1092,
+            "fairOdds": 9.15
+          },
+          {
+            "score": "0-2",
+            "probability": 0.0848,
+            "fairOdds": 11.79
+          }
+        ],
+        "fairOdds": {
+          "win": 3.65,
+          "draw": 3.05,
+          "loss": 2.51
+        }
+      }
+    },
+    {
+      "id": "760424",
+      "kickoffUtc": "2026-06-15T02:00:00Z",
+      "beijingDate": "2026-06-15",
+      "beijingTime": "10:00",
+      "weekday": "周一",
+      "group": "F",
+      "venue": "Estadio BBVA",
+      "home": {
+        "name": "Sweden",
+        "zh": "瑞典",
+        "abbr": "SWE",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png"
+      },
+      "away": {
+        "name": "Tunisia",
+        "zh": "突尼斯",
+        "abbr": "TUN",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.91,
+        "drawOdds": 3.55,
+        "lossOdds": 4.3,
+        "margin": 0.0381,
+        "totalLine": 2.5,
+        "overOdds": 2.2,
+        "underOdds": 1.69
+      },
+      "prediction": {
+        "win": 0.5017,
+        "draw": 0.2796,
+        "loss": 0.2188,
+        "homeXg": 1.51,
+        "awayXg": 0.92,
+        "totalXg": 2.42,
+        "over25": 0.4368,
+        "btts": 0.4768,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.132,
+            "fairOdds": 7.57
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1238,
+            "fairOdds": 8.08
+          },
+          {
+            "score": "2-0",
+            "probability": 0.1009,
+            "fairOdds": 9.91
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0983,
+            "fairOdds": 10.18
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0923,
+            "fairOdds": 10.83
+          }
+        ],
+        "fairOdds": {
+          "win": 1.99,
+          "draw": 3.58,
+          "loss": 4.57
+        }
+      }
+    },
+    {
+      "id": "760428",
+      "kickoffUtc": "2026-06-15T16:00:00Z",
+      "beijingDate": "2026-06-16",
+      "beijingTime": "00:00",
+      "weekday": "周二",
+      "group": "H",
+      "venue": "Mercedes-Benz Stadium",
+      "home": {
+        "name": "Spain",
+        "zh": "西班牙",
+        "abbr": "ESP",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
+      },
+      "away": {
+        "name": "Cape Verde",
+        "zh": "佛得角",
+        "abbr": "CPV",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.08,
+        "drawOdds": 12.0,
+        "lossOdds": 26.0,
+        "margin": 0.0449,
+        "totalLine": 3.5,
+        "overOdds": 1.91,
+        "underOdds": 1.87
+      },
+      "prediction": {
+        "win": 0.885,
+        "draw": 0.0886,
+        "loss": 0.0264,
+        "homeXg": 3.18,
+        "awayXg": 0.47,
+        "totalXg": 3.65,
+        "over25": 0.7059,
+        "btts": 0.364,
+        "pick": "胜",
+        "cover": "胜",
+        "confidence": "强",
+        "topScore": "3-0",
+        "topScores": [
+          {
+            "score": "3-0",
+            "probability": 0.139,
+            "fairOdds": 7.19
+          },
+          {
+            "score": "2-0",
+            "probability": 0.1313,
+            "fairOdds": 7.62
+          },
+          {
+            "score": "4-0",
+            "probability": 0.1104,
+            "fairOdds": 9.05
+          },
+          {
+            "score": "1-0",
+            "probability": 0.0795,
+            "fairOdds": 12.58
+          },
+          {
+            "score": "5-0",
+            "probability": 0.0702,
+            "fairOdds": 14.25
+          }
+        ],
+        "fairOdds": {
+          "win": 1.13,
+          "draw": 11.28,
+          "loss": 37.88
+        }
+      }
+    },
+    {
+      "id": "760426",
+      "kickoffUtc": "2026-06-15T19:00:00Z",
+      "beijingDate": "2026-06-16",
+      "beijingTime": "03:00",
+      "weekday": "周二",
+      "group": "G",
+      "venue": "Lumen Field",
+      "home": {
+        "name": "Belgium",
+        "zh": "比利时",
+        "abbr": "BEL",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png"
+      },
+      "away": {
+        "name": "Egypt",
+        "zh": "埃及",
+        "abbr": "EGY",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.59,
+        "drawOdds": 3.95,
+        "lossOdds": 5.75,
+        "margin": 0.0567,
+        "totalLine": 2.5,
+        "overOdds": 1.95,
+        "underOdds": 1.83
+      },
+      "prediction": {
+        "win": 0.5946,
+        "draw": 0.2453,
+        "loss": 0.1601,
+        "homeXg": 1.79,
+        "awayXg": 0.82,
+        "totalXg": 2.62,
+        "over25": 0.486,
+        "btts": 0.4768,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "中",
+        "topScore": "1-0",
+        "topScores": [
+          {
+            "score": "1-0",
+            "probability": 0.1222,
+            "fairOdds": 8.18
+          },
+          {
+            "score": "2-0",
+            "probability": 0.1173,
+            "fairOdds": 8.53
+          },
+          {
+            "score": "1-1",
+            "probability": 0.1166,
+            "fairOdds": 8.58
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0967,
+            "fairOdds": 10.34
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0816,
+            "fairOdds": 12.25
+          }
+        ],
+        "fairOdds": {
+          "win": 1.68,
+          "draw": 4.08,
+          "loss": 6.25
+        }
+      }
+    },
+    {
+      "id": "760429",
+      "kickoffUtc": "2026-06-15T22:00:00Z",
+      "beijingDate": "2026-06-16",
+      "beijingTime": "06:00",
+      "weekday": "周二",
+      "group": "H",
+      "venue": "Hard Rock Stadium",
+      "home": {
+        "name": "Saudi Arabia",
+        "zh": "沙特阿拉伯",
+        "abbr": "KSA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png"
+      },
+      "away": {
+        "name": "Uruguay",
+        "zh": "乌拉圭",
+        "abbr": "URU",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 8.0,
+        "drawOdds": 4.5,
+        "lossOdds": 1.44,
+        "margin": 0.0395,
+        "totalLine": 2.5,
+        "overOdds": 2.0,
+        "underOdds": 1.8
+      },
+      "prediction": {
+        "win": 0.1124,
+        "draw": 0.2228,
+        "loss": 0.6648,
+        "homeXg": 0.66,
+        "awayXg": 1.92,
+        "totalXg": 2.58,
+        "over25": 0.4753,
+        "btts": 0.4197,
+        "pick": "负",
+        "cover": "负/平",
+        "confidence": "中",
+        "topScore": "0-2",
+        "topScores": [
+          {
+            "score": "0-2",
+            "probability": 0.1396,
+            "fairOdds": 7.16
+          },
+          {
+            "score": "0-1",
+            "probability": 0.1381,
+            "fairOdds": 7.24
+          },
+          {
+            "score": "1-1",
+            "probability": 0.104,
+            "fairOdds": 9.62
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0922,
+            "fairOdds": 10.85
+          },
+          {
+            "score": "0-3",
+            "probability": 0.0891,
+            "fairOdds": 11.22
+          }
+        ],
+        "fairOdds": {
+          "win": 8.9,
+          "draw": 4.49,
+          "loss": 1.5
+        }
+      }
+    },
+    {
+      "id": "760427",
+      "kickoffUtc": "2026-06-16T01:00:00Z",
+      "beijingDate": "2026-06-16",
+      "beijingTime": "09:00",
+      "weekday": "周二",
+      "group": "G",
+      "venue": "SoFi Stadium",
+      "home": {
+        "name": "Iran",
+        "zh": "伊朗",
+        "abbr": "IRN",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png"
+      },
+      "away": {
+        "name": "New Zealand",
+        "zh": "新西兰",
+        "abbr": "NZL",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.83,
+        "drawOdds": 3.5,
+        "lossOdds": 4.7,
+        "margin": 0.0439,
+        "totalLine": 2.5,
+        "overOdds": 2.4,
+        "underOdds": 1.57
+      },
+      "prediction": {
+        "win": 0.5192,
+        "draw": 0.2847,
+        "loss": 0.1961,
+        "homeXg": 1.47,
+        "awayXg": 0.81,
+        "totalXg": 2.28,
+        "over25": 0.3987,
+        "btts": 0.4367,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "谨慎",
+        "topScore": "1-0",
+        "topScores": [
+          {
+            "score": "1-0",
+            "probability": 0.1409,
+            "fairOdds": 7.1
+          },
+          {
+            "score": "1-1",
+            "probability": 0.1314,
+            "fairOdds": 7.61
+          },
+          {
+            "score": "0-0",
+            "probability": 0.112,
+            "fairOdds": 8.93
+          },
+          {
+            "score": "2-0",
+            "probability": 0.1109,
+            "fairOdds": 9.02
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0895,
+            "fairOdds": 11.17
+          }
+        ],
+        "fairOdds": {
+          "win": 1.93,
+          "draw": 3.51,
+          "loss": 5.1
+        }
+      }
+    },
+    {
+      "id": "760432",
+      "kickoffUtc": "2026-06-16T19:00:00Z",
+      "beijingDate": "2026-06-17",
+      "beijingTime": "03:00",
+      "weekday": "周三",
+      "group": "I",
+      "venue": "MetLife Stadium",
+      "home": {
+        "name": "France",
+        "zh": "法国",
+        "abbr": "FRA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+      },
+      "away": {
+        "name": "Senegal",
+        "zh": "塞内加尔",
+        "abbr": "SEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.48,
+        "drawOdds": 4.4,
+        "lossOdds": 7.0,
+        "margin": 0.0475,
+        "totalLine": 2.5,
+        "overOdds": 1.95,
+        "underOdds": 1.83
+      },
+      "prediction": {
+        "win": 0.6447,
+        "draw": 0.2285,
+        "loss": 0.1269,
+        "homeXg": 1.9,
+        "awayXg": 0.72,
+        "totalXg": 2.62,
+        "over25": 0.4866,
+        "btts": 0.4453,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "中",
+        "topScore": "2-0",
+        "topScores": [
+          {
+            "score": "2-0",
+            "probability": 0.1311,
+            "fairOdds": 7.63
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1302,
+            "fairOdds": 7.68
+          },
+          {
+            "score": "1-1",
+            "probability": 0.1078,
+            "fairOdds": 9.28
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0947,
+            "fairOdds": 10.56
+          },
+          {
+            "score": "3-0",
+            "probability": 0.0829,
+            "fairOdds": 12.06
+          }
+        ],
+        "fairOdds": {
+          "win": 1.55,
+          "draw": 4.38,
+          "loss": 7.88
+        }
+      }
+    },
+    {
+      "id": "760430",
+      "kickoffUtc": "2026-06-16T22:00:00Z",
+      "beijingDate": "2026-06-17",
+      "beijingTime": "06:00",
+      "weekday": "周三",
+      "group": "I",
+      "venue": "Gillette Stadium",
+      "home": {
+        "name": "Iraq",
+        "zh": "伊拉克",
+        "abbr": "IRQ",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png"
+      },
+      "away": {
+        "name": "Norway",
+        "zh": "挪威",
+        "abbr": "NOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 14.0,
+        "drawOdds": 7.0,
+        "lossOdds": 1.21,
+        "margin": 0.0404,
+        "totalLine": 2.5,
+        "overOdds": 1.57,
+        "underOdds": 2.4
+      },
+      "prediction": {
+        "win": 0.0587,
+        "draw": 0.1474,
+        "loss": 0.7939,
+        "homeXg": 0.58,
+        "awayXg": 2.55,
+        "totalXg": 3.13,
+        "over25": 0.6053,
+        "btts": 0.4121,
+        "pick": "负",
+        "cover": "负",
+        "confidence": "强",
+        "topScore": "0-2",
+        "topScores": [
+          {
+            "score": "0-2",
+            "probability": 0.1419,
+            "fairOdds": 7.05
+          },
+          {
+            "score": "0-3",
+            "probability": 0.1205,
+            "fairOdds": 8.3
+          },
+          {
+            "score": "0-1",
+            "probability": 0.1062,
+            "fairOdds": 9.42
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0826,
+            "fairOdds": 12.1
+          },
+          {
+            "score": "0-4",
+            "probability": 0.0767,
+            "fairOdds": 13.03
+          }
+        ],
+        "fairOdds": {
+          "win": 17.04,
+          "draw": 6.78,
+          "loss": 1.26
+        }
+      }
+    },
+    {
+      "id": "760433",
+      "kickoffUtc": "2026-06-17T01:00:00Z",
+      "beijingDate": "2026-06-17",
+      "beijingTime": "09:00",
+      "weekday": "周三",
+      "group": "J",
+      "venue": "GEHA Field at Arrowhead Stadium",
+      "home": {
+        "name": "Argentina",
+        "zh": "阿根廷",
+        "abbr": "ARG",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png"
+      },
+      "away": {
+        "name": "Algeria",
+        "zh": "阿尔及利亚",
+        "abbr": "ALG",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.41,
+        "drawOdds": 4.6,
+        "lossOdds": 9.0,
+        "margin": 0.0386,
+        "totalLine": 2.5,
+        "overOdds": 1.91,
+        "underOdds": 1.87
+      },
+      "prediction": {
+        "win": 0.6836,
+        "draw": 0.2121,
+        "loss": 0.1044,
+        "homeXg": 2.0,
+        "awayXg": 0.65,
+        "totalXg": 2.65,
+        "over25": 0.4953,
+        "btts": 0.4229,
+        "pick": "胜",
+        "cover": "胜",
+        "confidence": "中",
+        "topScore": "2-0",
+        "topScores": [
+          {
+            "score": "2-0",
+            "probability": 0.1406,
+            "fairOdds": 7.11
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1332,
+            "fairOdds": 7.51
+          },
+          {
+            "score": "1-1",
+            "probability": 0.0995,
+            "fairOdds": 10.05
+          },
+          {
+            "score": "3-0",
+            "probability": 0.0937,
+            "fairOdds": 10.67
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0921,
+            "fairOdds": 10.86
+          }
+        ],
+        "fairOdds": {
+          "win": 1.46,
+          "draw": 4.72,
+          "loss": 9.58
+        }
+      }
+    },
+    {
+      "id": "760431",
+      "kickoffUtc": "2026-06-17T04:00:00Z",
+      "beijingDate": "2026-06-17",
+      "beijingTime": "12:00",
+      "weekday": "周三",
+      "group": "J",
+      "venue": "Levi's Stadium",
+      "home": {
+        "name": "Austria",
+        "zh": "奥地利",
+        "abbr": "AUT",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png"
+      },
+      "away": {
+        "name": "Jordan",
+        "zh": "约旦",
+        "abbr": "JOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.34,
+        "drawOdds": 5.5,
+        "lossOdds": 9.0,
+        "margin": 0.0398,
+        "totalLine": 2.5,
+        "overOdds": 1.67,
+        "underOdds": 2.2
+      },
+      "prediction": {
+        "win": 0.7172,
+        "draw": 0.187,
+        "loss": 0.0958,
+        "homeXg": 2.26,
+        "awayXg": 0.71,
+        "totalXg": 2.97,
+        "over25": 0.5706,
+        "btts": 0.464,
+        "pick": "胜",
+        "cover": "胜",
+        "confidence": "中",
+        "topScore": "2-0",
+        "topScores": [
+          {
+            "score": "2-0",
+            "probability": 0.1304,
+            "fairOdds": 7.67
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1089,
+            "fairOdds": 9.18
+          },
+          {
+            "score": "3-0",
+            "probability": 0.0981,
+            "fairOdds": 10.19
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0932,
+            "fairOdds": 10.73
+          },
+          {
+            "score": "1-1",
+            "probability": 0.0892,
+            "fairOdds": 11.21
+          }
+        ],
+        "fairOdds": {
+          "win": 1.39,
+          "draw": 5.35,
+          "loss": 10.44
+        }
+      }
+    },
+    {
+      "id": "760435",
+      "kickoffUtc": "2026-06-17T17:00:00Z",
+      "beijingDate": "2026-06-18",
+      "beijingTime": "01:00",
+      "weekday": "周四",
+      "group": "K",
+      "venue": "NRG Stadium",
+      "home": {
+        "name": "Portugal",
+        "zh": "葡萄牙",
+        "abbr": "POR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png"
+      },
+      "away": {
+        "name": "Congo DR",
+        "zh": "民主刚果",
+        "abbr": "COD",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.28,
+        "drawOdds": 5.75,
+        "lossOdds": 11.0,
+        "margin": 0.0474,
+        "totalLine": 2.5,
+        "overOdds": 1.69,
+        "underOdds": 2.15
+      },
+      "prediction": {
+        "win": 0.747,
+        "draw": 0.1752,
+        "loss": 0.0778,
+        "homeXg": 2.3,
+        "awayXg": 0.62,
+        "totalXg": 2.93,
+        "over25": 0.5609,
+        "btts": 0.4245,
+        "pick": "胜",
+        "cover": "胜",
+        "confidence": "强",
+        "topScore": "2-0",
+        "topScores": [
+          {
+            "score": "2-0",
+            "probability": 0.1419,
+            "fairOdds": 7.05
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1169,
+            "fairOdds": 8.55
+          },
+          {
+            "score": "3-0",
+            "probability": 0.109,
+            "fairOdds": 9.18
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0887,
+            "fairOdds": 11.28
+          },
+          {
+            "score": "1-1",
+            "probability": 0.0831,
+            "fairOdds": 12.04
+          }
+        ],
+        "fairOdds": {
+          "win": 1.34,
+          "draw": 5.71,
+          "loss": 12.85
+        }
+      }
+    },
+    {
+      "id": "760437",
+      "kickoffUtc": "2026-06-17T20:00:00Z",
+      "beijingDate": "2026-06-18",
+      "beijingTime": "04:00",
+      "weekday": "周四",
+      "group": "L",
+      "venue": "AT&T Stadium",
+      "home": {
+        "name": "England",
+        "zh": "英格兰",
+        "abbr": "ENG",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+      },
+      "away": {
+        "name": "Croatia",
+        "zh": "克罗地亚",
+        "abbr": "CRO",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.71,
+        "drawOdds": 3.85,
+        "lossOdds": 4.8,
+        "margin": 0.0514,
+        "totalLine": 2.5,
+        "overOdds": 2.15,
+        "underOdds": 1.71
+      },
+      "prediction": {
+        "win": 0.5497,
+        "draw": 0.2658,
+        "loss": 0.1845,
+        "homeXg": 1.62,
+        "awayXg": 0.84,
+        "totalXg": 2.47,
+        "over25": 0.4478,
+        "btts": 0.4665,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "谨慎",
+        "topScore": "1-0",
+        "topScores": [
+          {
+            "score": "1-0",
+            "probability": 0.1285,
+            "fairOdds": 7.78
+          },
+          {
+            "score": "1-1",
+            "probability": 0.1254,
+            "fairOdds": 7.98
+          },
+          {
+            "score": "2-0",
+            "probability": 0.112,
+            "fairOdds": 8.93
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0943,
+            "fairOdds": 10.6
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0941,
+            "fairOdds": 10.63
+          }
+        ],
+        "fairOdds": {
+          "win": 1.82,
+          "draw": 3.76,
+          "loss": 5.42
+        }
+      }
+    },
+    {
+      "id": "760434",
+      "kickoffUtc": "2026-06-17T23:00:00Z",
+      "beijingDate": "2026-06-18",
+      "beijingTime": "07:00",
+      "weekday": "周四",
+      "group": "L",
+      "venue": "BMO Field",
+      "home": {
+        "name": "Ghana",
+        "zh": "加纳",
+        "abbr": "GHA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png"
+      },
+      "away": {
+        "name": "Panama",
+        "zh": "巴拿马",
+        "abbr": "PAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 2.15,
+        "drawOdds": 3.4,
+        "lossOdds": 3.5,
+        "margin": 0.0449,
+        "totalLine": 2.5,
+        "overOdds": 2.3,
+        "underOdds": 1.62
+      },
+      "prediction": {
+        "win": 0.4395,
+        "draw": 0.2948,
+        "loss": 0.2656,
+        "homeXg": 1.35,
+        "awayXg": 1.0,
+        "totalXg": 2.35,
+        "over25": 0.4178,
+        "btts": 0.4787,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.1389,
+            "fairOdds": 7.2
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1186,
+            "fairOdds": 8.43
+          },
+          {
+            "score": "0-0",
+            "probability": 0.1054,
+            "fairOdds": 9.49
+          },
+          {
+            "score": "2-0",
+            "probability": 0.0873,
+            "fairOdds": 11.45
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0871,
+            "fairOdds": 11.48
+          }
+        ],
+        "fairOdds": {
+          "win": 2.28,
+          "draw": 3.39,
+          "loss": 3.76
+        }
+      }
+    },
+    {
+      "id": "760436",
+      "kickoffUtc": "2026-06-18T02:00:00Z",
+      "beijingDate": "2026-06-18",
+      "beijingTime": "10:00",
+      "weekday": "周四",
+      "group": "K",
+      "venue": "Estadio Banorte",
+      "home": {
+        "name": "Uzbekistan",
+        "zh": "乌兹别克斯坦",
+        "abbr": "UZB",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png"
+      },
+      "away": {
+        "name": "Colombia",
+        "zh": "哥伦比亚",
+        "abbr": "COL",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 8.5,
+        "drawOdds": 4.7,
+        "lossOdds": 1.4,
+        "margin": 0.0447,
+        "totalLine": 2.5,
+        "overOdds": 1.95,
+        "underOdds": 1.87
+      },
+      "prediction": {
+        "win": 0.1044,
+        "draw": 0.2132,
+        "loss": 0.6824,
+        "homeXg": 0.65,
+        "awayXg": 1.99,
+        "totalXg": 2.64,
+        "over25": 0.4909,
+        "btts": 0.4198,
+        "pick": "负",
+        "cover": "负",
+        "confidence": "中",
+        "topScore": "0-2",
+        "topScores": [
+          {
+            "score": "0-2",
+            "probability": 0.1413,
+            "fairOdds": 7.08
+          },
+          {
+            "score": "0-1",
+            "probability": 0.1348,
+            "fairOdds": 7.42
+          },
+          {
+            "score": "1-1",
+            "probability": 0.0998,
+            "fairOdds": 10.02
+          },
+          {
+            "score": "0-3",
+            "probability": 0.0936,
+            "fairOdds": 10.68
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0918,
+            "fairOdds": 10.89
+          }
+        ],
+        "fairOdds": {
+          "win": 9.58,
+          "draw": 4.69,
+          "loss": 1.47
+        }
+      }
+    },
+    {
+      "id": "760438",
+      "kickoffUtc": "2026-06-18T16:00:00Z",
+      "beijingDate": "2026-06-19",
+      "beijingTime": "00:00",
+      "weekday": "周五",
+      "group": "A",
+      "venue": "Mercedes-Benz Stadium",
+      "home": {
+        "name": "Czechia",
+        "zh": "捷克",
+        "abbr": "CZE",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png"
+      },
+      "away": {
+        "name": "South Africa",
+        "zh": "南非",
+        "abbr": "RSA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.74,
+        "drawOdds": 3.8,
+        "lossOdds": 5.0,
+        "margin": 0.0376,
+        "totalLine": 2.5,
+        "overOdds": 2.05,
+        "underOdds": 1.77
+      },
+      "prediction": {
+        "win": 0.5513,
+        "draw": 0.2617,
+        "loss": 0.187,
+        "homeXg": 1.66,
+        "awayXg": 0.87,
+        "totalXg": 2.53,
+        "over25": 0.4651,
+        "btts": 0.4809,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.1242,
+            "fairOdds": 8.05
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1226,
+            "fairOdds": 8.16
+          },
+          {
+            "score": "2-0",
+            "probability": 0.1095,
+            "fairOdds": 9.13
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0956,
+            "fairOdds": 10.46
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0885,
+            "fairOdds": 11.3
+          }
+        ],
+        "fairOdds": {
+          "win": 1.81,
+          "draw": 3.82,
+          "loss": 5.35
+        }
+      }
+    },
+    {
+      "id": "760439",
+      "kickoffUtc": "2026-06-18T19:00:00Z",
+      "beijingDate": "2026-06-19",
+      "beijingTime": "03:00",
+      "weekday": "周五",
+      "group": "B",
+      "venue": "SoFi Stadium",
+      "home": {
+        "name": "Switzerland",
+        "zh": "瑞士",
+        "abbr": "SUI",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png"
+      },
+      "away": {
+        "name": "Bosnia-Herzegovina",
+        "zh": "波黑",
+        "abbr": "BIH",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.61,
+        "drawOdds": 4.2,
+        "lossOdds": 5.75,
+        "margin": 0.0346,
+        "totalLine": 2.5,
+        "overOdds": 2.05,
+        "underOdds": 1.77
+      },
+      "prediction": {
+        "win": 0.598,
+        "draw": 0.2479,
+        "loss": 0.1541,
+        "homeXg": 1.76,
+        "awayXg": 0.78,
+        "totalXg": 2.54,
+        "over25": 0.467,
+        "btts": 0.458,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "中",
+        "topScore": "1-0",
+        "topScores": [
+          {
+            "score": "1-0",
+            "probability": 0.1298,
+            "fairOdds": 7.7
+          },
+          {
+            "score": "2-0",
+            "probability": 0.1218,
+            "fairOdds": 8.21
+          },
+          {
+            "score": "1-1",
+            "probability": 0.117,
+            "fairOdds": 8.55
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0953,
+            "fairOdds": 10.49
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0873,
+            "fairOdds": 11.45
+          }
+        ],
+        "fairOdds": {
+          "win": 1.67,
+          "draw": 4.03,
+          "loss": 6.49
+        }
+      }
+    },
+    {
+      "id": "760440",
+      "kickoffUtc": "2026-06-18T22:00:00Z",
+      "beijingDate": "2026-06-19",
+      "beijingTime": "06:00",
+      "weekday": "周五",
+      "group": "B",
+      "venue": "BC Place",
+      "home": {
+        "name": "Canada",
+        "zh": "加拿大",
+        "abbr": "CAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png"
+      },
+      "away": {
+        "name": "Qatar",
+        "zh": "卡塔尔",
+        "abbr": "QAT",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.29,
+        "drawOdds": 5.5,
+        "lossOdds": 11.0,
+        "margin": 0.0455,
+        "totalLine": 2.5,
+        "overOdds": 1.83,
+        "underOdds": 1.95
+      },
+      "prediction": {
+        "win": 0.7383,
+        "draw": 0.185,
+        "loss": 0.0767,
+        "homeXg": 2.18,
+        "awayXg": 0.57,
+        "totalXg": 2.75,
+        "over25": 0.5173,
+        "btts": 0.3915,
+        "pick": "胜",
+        "cover": "胜",
+        "confidence": "强",
+        "topScore": "2-0",
+        "topScores": [
+          {
+            "score": "2-0",
+            "probability": 0.152,
+            "fairOdds": 6.58
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1334,
+            "fairOdds": 7.5
+          },
+          {
+            "score": "3-0",
+            "probability": 0.1102,
+            "fairOdds": 9.08
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0866,
+            "fairOdds": 11.54
+          },
+          {
+            "score": "1-1",
+            "probability": 0.086,
+            "fairOdds": 11.62
+          }
+        ],
+        "fairOdds": {
+          "win": 1.35,
+          "draw": 5.41,
+          "loss": 13.03
+        }
+      }
+    },
+    {
+      "id": "760441",
+      "kickoffUtc": "2026-06-19T01:00:00Z",
+      "beijingDate": "2026-06-19",
+      "beijingTime": "09:00",
+      "weekday": "周五",
+      "group": "A",
+      "venue": "Estadio Akron",
+      "home": {
+        "name": "Mexico",
+        "zh": "墨西哥",
+        "abbr": "MEX",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png"
+      },
+      "away": {
+        "name": "South Korea",
+        "zh": "韩国",
+        "abbr": "KOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 2.0,
+        "drawOdds": 3.4,
+        "lossOdds": 4.0,
+        "margin": 0.0441,
+        "totalLine": 2.5,
+        "overOdds": 2.45,
+        "underOdds": 1.56
+      },
+      "prediction": {
+        "win": 0.4746,
+        "draw": 0.2957,
+        "loss": 0.2297,
+        "homeXg": 1.38,
+        "awayXg": 0.88,
+        "totalXg": 2.26,
+        "over25": 0.3927,
+        "btts": 0.4478,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.137,
+            "fairOdds": 7.3
+          },
+          {
+            "score": "1-0",
+            "probability": 0.134,
+            "fairOdds": 7.47
+          },
+          {
+            "score": "0-0",
+            "probability": 0.1148,
+            "fairOdds": 8.71
+          },
+          {
+            "score": "2-0",
+            "probability": 0.0993,
+            "fairOdds": 10.08
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0873,
+            "fairOdds": 11.45
+          }
+        ],
+        "fairOdds": {
+          "win": 2.11,
+          "draw": 3.38,
+          "loss": 4.35
+        }
+      }
+    },
+    {
+      "id": "760442",
+      "kickoffUtc": "2026-06-19T19:00:00Z",
+      "beijingDate": "2026-06-20",
+      "beijingTime": "03:00",
+      "weekday": "周六",
+      "group": "D",
+      "venue": "Lumen Field",
+      "home": {
+        "name": "United States",
+        "zh": "美国",
+        "abbr": "USA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
+      },
+      "away": {
+        "name": "Australia",
+        "zh": "澳大利亚",
+        "abbr": "AUS",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.77,
+        "drawOdds": 3.95,
+        "lossOdds": 4.5,
+        "margin": 0.0406,
+        "totalLine": 2.5,
+        "overOdds": 2.0,
+        "underOdds": 1.8
+      },
+      "prediction": {
+        "win": 0.5375,
+        "draw": 0.2625,
+        "loss": 0.2,
+        "homeXg": 1.66,
+        "awayXg": 0.92,
+        "totalXg": 2.58,
+        "over25": 0.4778,
+        "btts": 0.498,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.125,
+            "fairOdds": 8.0
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1159,
+            "fairOdds": 8.63
+          },
+          {
+            "score": "2-0",
+            "probability": 0.1039,
+            "fairOdds": 9.63
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0961,
+            "fairOdds": 10.41
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0847,
+            "fairOdds": 11.81
+          }
+        ],
+        "fairOdds": {
+          "win": 1.86,
+          "draw": 3.81,
+          "loss": 5.0
+        }
+      }
+    },
+    {
+      "id": "760445",
+      "kickoffUtc": "2026-06-19T22:00:00Z",
+      "beijingDate": "2026-06-20",
+      "beijingTime": "06:00",
+      "weekday": "周六",
+      "group": "C",
+      "venue": "Gillette Stadium",
+      "home": {
+        "name": "Scotland",
+        "zh": "苏格兰",
+        "abbr": "SCO",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png"
+      },
+      "away": {
+        "name": "Morocco",
+        "zh": "摩洛哥",
+        "abbr": "MAR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 4.1,
+        "drawOdds": 3.3,
+        "lossOdds": 2.0,
+        "margin": 0.0469,
+        "totalLine": 2.5,
+        "overOdds": 2.3,
+        "underOdds": 1.62
+      },
+      "prediction": {
+        "win": 0.2328,
+        "draw": 0.2896,
+        "loss": 0.4776,
+        "homeXg": 0.92,
+        "awayXg": 1.42,
+        "totalXg": 2.34,
+        "over25": 0.4145,
+        "btts": 0.4658,
+        "pick": "负",
+        "cover": "负/平",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.1358,
+            "fairOdds": 7.36
+          },
+          {
+            "score": "0-1",
+            "probability": 0.127,
+            "fairOdds": 7.88
+          },
+          {
+            "score": "0-0",
+            "probability": 0.1064,
+            "fairOdds": 9.4
+          },
+          {
+            "score": "0-2",
+            "probability": 0.0975,
+            "fairOdds": 10.26
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0894,
+            "fairOdds": 11.18
+          }
+        ],
+        "fairOdds": {
+          "win": 4.3,
+          "draw": 3.45,
+          "loss": 2.09
+        }
+      }
+    },
+    {
+      "id": "760444",
+      "kickoffUtc": "2026-06-20T00:30:00Z",
+      "beijingDate": "2026-06-20",
+      "beijingTime": "08:30",
+      "weekday": "周六",
+      "group": "C",
+      "venue": "Lincoln Financial Field",
+      "home": {
+        "name": "Brazil",
+        "zh": "巴西",
+        "abbr": "BRA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png"
+      },
+      "away": {
+        "name": "Haiti",
+        "zh": "海地",
+        "abbr": "HAI",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.08,
+        "drawOdds": 13.0,
+        "lossOdds": 26.0,
+        "margin": 0.0385,
+        "totalLine": 3.5,
+        "overOdds": 1.77,
+        "underOdds": 2.05
+      },
+      "prediction": {
+        "win": 0.89,
+        "draw": 0.0833,
+        "loss": 0.0267,
+        "homeXg": 3.33,
+        "awayXg": 0.52,
+        "totalXg": 3.85,
+        "over25": 0.7393,
+        "btts": 0.3939,
+        "pick": "胜",
+        "cover": "胜",
+        "confidence": "强",
+        "topScore": "3-0",
+        "topScores": [
+          {
+            "score": "3-0",
+            "probability": 0.131,
+            "fairOdds": 7.63
+          },
+          {
+            "score": "2-0",
+            "probability": 0.1179,
+            "fairOdds": 8.48
+          },
+          {
+            "score": "4-0",
+            "probability": 0.1092,
+            "fairOdds": 9.16
+          },
+          {
+            "score": "5-0",
+            "probability": 0.0728,
+            "fairOdds": 13.75
+          },
+          {
+            "score": "3-1",
+            "probability": 0.0681,
+            "fairOdds": 14.68
+          }
+        ],
+        "fairOdds": {
+          "win": 1.12,
+          "draw": 12.0,
+          "loss": 37.51
+        }
+      }
+    },
+    {
+      "id": "760443",
+      "kickoffUtc": "2026-06-20T03:00:00Z",
+      "beijingDate": "2026-06-20",
+      "beijingTime": "11:00",
+      "weekday": "周六",
+      "group": "D",
+      "venue": "Levi's Stadium",
+      "home": {
+        "name": "Türkiye",
+        "zh": "土耳其",
+        "abbr": "TUR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png"
+      },
+      "away": {
+        "name": "Paraguay",
+        "zh": "巴拉圭",
+        "abbr": "PAR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 2.25,
+        "drawOdds": 3.2,
+        "lossOdds": 3.45,
+        "margin": 0.0468,
+        "totalLine": 2.5,
+        "overOdds": 2.3,
+        "underOdds": 1.62
+      },
+      "prediction": {
+        "win": 0.4251,
+        "draw": 0.2976,
+        "loss": 0.2773,
+        "homeXg": 1.32,
+        "awayXg": 1.02,
+        "totalXg": 2.34,
+        "over25": 0.4139,
+        "btts": 0.4783,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.1401,
+            "fairOdds": 7.14
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1171,
+            "fairOdds": 8.54
+          },
+          {
+            "score": "0-0",
+            "probability": 0.1069,
+            "fairOdds": 9.35
+          },
+          {
+            "score": "0-1",
+            "probability": 0.0879,
+            "fairOdds": 11.38
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0856,
+            "fairOdds": 11.68
+          }
+        ],
+        "fairOdds": {
+          "win": 2.35,
+          "draw": 3.36,
+          "loss": 3.61
+        }
+      }
+    },
+    {
+      "id": "760447",
+      "kickoffUtc": "2026-06-20T17:00:00Z",
+      "beijingDate": "2026-06-21",
+      "beijingTime": "01:00",
+      "weekday": "周日",
+      "group": "F",
+      "venue": "NRG Stadium",
+      "home": {
+        "name": "Netherlands",
+        "zh": "荷兰",
+        "abbr": "NED",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+      },
+      "away": {
+        "name": "Sweden",
+        "zh": "瑞典",
+        "abbr": "SWE",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.65,
+        "drawOdds": 4.2,
+        "lossOdds": 5.25,
+        "margin": 0.0364,
+        "totalLine": 2.5,
+        "overOdds": 1.91,
+        "underOdds": 1.91
+      },
+      "prediction": {
+        "win": 0.5829,
+        "draw": 0.2454,
+        "loss": 0.1717,
+        "homeXg": 1.8,
+        "awayXg": 0.88,
+        "totalXg": 2.69,
+        "over25": 0.5033,
+        "btts": 0.4985,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "中",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.1171,
+            "fairOdds": 8.54
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1142,
+            "fairOdds": 8.76
+          },
+          {
+            "score": "2-0",
+            "probability": 0.1109,
+            "fairOdds": 9.02
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0978,
+            "fairOdds": 10.22
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0767,
+            "fairOdds": 13.03
+          }
+        ],
+        "fairOdds": {
+          "win": 1.72,
+          "draw": 4.07,
+          "loss": 5.83
+        }
+      }
+    },
+    {
+      "id": "760448",
+      "kickoffUtc": "2026-06-20T20:00:00Z",
+      "beijingDate": "2026-06-21",
+      "beijingTime": "04:00",
+      "weekday": "周日",
+      "group": "E",
+      "venue": "BMO Field",
+      "home": {
+        "name": "Germany",
+        "zh": "德国",
+        "abbr": "GER",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png"
+      },
+      "away": {
+        "name": "Ivory Coast",
+        "zh": "科特迪瓦",
+        "abbr": "CIV",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.56,
+        "drawOdds": 4.4,
+        "lossOdds": 5.75,
+        "margin": 0.044,
+        "totalLine": 2.5,
+        "overOdds": 1.77,
+        "underOdds": 2.05
+      },
+      "prediction": {
+        "win": 0.6125,
+        "draw": 0.2301,
+        "loss": 0.1574,
+        "homeXg": 1.95,
+        "awayXg": 0.89,
+        "totalXg": 2.83,
+        "over25": 0.5388,
+        "btts": 0.5132,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "中",
+        "topScore": "2-0",
+        "topScores": [
+          {
+            "score": "2-0",
+            "probability": 0.1111,
+            "fairOdds": 9.0
+          },
+          {
+            "score": "1-1",
+            "probability": 0.1098,
+            "fairOdds": 9.11
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1061,
+            "fairOdds": 9.43
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0989,
+            "fairOdds": 10.12
+          },
+          {
+            "score": "3-0",
+            "probability": 0.072,
+            "fairOdds": 13.89
+          }
+        ],
+        "fairOdds": {
+          "win": 1.63,
+          "draw": 4.35,
+          "loss": 6.35
+        }
+      }
+    },
+    {
+      "id": "760446",
+      "kickoffUtc": "2026-06-21T00:00:00Z",
+      "beijingDate": "2026-06-21",
+      "beijingTime": "08:00",
+      "weekday": "周日",
+      "group": "E",
+      "venue": "GEHA Field at Arrowhead Stadium",
+      "home": {
+        "name": "Ecuador",
+        "zh": "厄瓜多尔",
+        "abbr": "ECU",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png"
+      },
+      "away": {
+        "name": "Curaçao",
+        "zh": "库拉索",
+        "abbr": "CUW",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.2,
+        "drawOdds": 7.5,
+        "lossOdds": 13.0,
+        "margin": 0.0436,
+        "totalLine": 2.5,
+        "overOdds": 1.67,
+        "underOdds": 2.2
+      },
+      "prediction": {
+        "win": 0.7995,
+        "draw": 0.1482,
+        "loss": 0.0523,
+        "homeXg": 2.47,
+        "awayXg": 0.51,
+        "totalXg": 2.97,
+        "over25": 0.5712,
+        "btts": 0.3694,
+        "pick": "胜",
+        "cover": "胜",
+        "confidence": "强",
+        "topScore": "2-0",
+        "topScores": [
+          {
+            "score": "2-0",
+            "probability": 0.1554,
+            "fairOdds": 6.43
+          },
+          {
+            "score": "3-0",
+            "probability": 0.1278,
+            "fairOdds": 7.82
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1209,
+            "fairOdds": 8.27
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0789,
+            "fairOdds": 12.68
+          },
+          {
+            "score": "4-0",
+            "probability": 0.0789,
+            "fairOdds": 12.68
+          }
+        ],
+        "fairOdds": {
+          "win": 1.25,
+          "draw": 6.75,
+          "loss": 19.13
+        }
+      }
+    },
+    {
+      "id": "760449",
+      "kickoffUtc": "2026-06-21T04:00:00Z",
+      "beijingDate": "2026-06-21",
+      "beijingTime": "12:00",
+      "weekday": "周日",
+      "group": "F",
+      "venue": "Estadio BBVA",
+      "home": {
+        "name": "Tunisia",
+        "zh": "突尼斯",
+        "abbr": "TUN",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png"
+      },
+      "away": {
+        "name": "Japan",
+        "zh": "日本",
+        "abbr": "JPN",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 5.25,
+        "drawOdds": 3.7,
+        "lossOdds": 1.71,
+        "margin": 0.0441,
+        "totalLine": 2.5,
+        "overOdds": 2.2,
+        "underOdds": 1.67
+      },
+      "prediction": {
+        "win": 0.1766,
+        "draw": 0.2671,
+        "loss": 0.5563,
+        "homeXg": 0.8,
+        "awayXg": 1.61,
+        "totalXg": 2.41,
+        "over25": 0.4336,
+        "btts": 0.4508,
+        "pick": "负",
+        "cover": "负/平",
+        "confidence": "谨慎",
+        "topScore": "0-1",
+        "topScores": [
+          {
+            "score": "0-1",
+            "probability": 0.135,
+            "fairOdds": 7.41
+          },
+          {
+            "score": "1-1",
+            "probability": 0.125,
+            "fairOdds": 8.0
+          },
+          {
+            "score": "0-2",
+            "probability": 0.1161,
+            "fairOdds": 8.61
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0989,
+            "fairOdds": 10.12
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0932,
+            "fairOdds": 10.73
+          }
+        ],
+        "fairOdds": {
+          "win": 5.66,
+          "draw": 3.74,
+          "loss": 1.8
+        }
+      }
+    },
+    {
+      "id": "760453",
+      "kickoffUtc": "2026-06-21T16:00:00Z",
+      "beijingDate": "2026-06-22",
+      "beijingTime": "00:00",
+      "weekday": "周一",
+      "group": "H",
+      "venue": "Mercedes-Benz Stadium",
+      "home": {
+        "name": "Spain",
+        "zh": "西班牙",
+        "abbr": "ESP",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "zh": "沙特阿拉伯",
+        "abbr": "KSA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.1,
+        "drawOdds": 11.0,
+        "lossOdds": 23.0,
+        "margin": 0.0435,
+        "totalLine": 3.5,
+        "overOdds": 2.2,
+        "underOdds": 1.69
+      },
+      "prediction": {
+        "win": 0.8731,
+        "draw": 0.0994,
+        "loss": 0.0275,
+        "homeXg": 2.95,
+        "awayXg": 0.42,
+        "totalXg": 3.37,
+        "over25": 0.6544,
+        "btts": 0.3299,
+        "pick": "胜",
+        "cover": "胜",
+        "confidence": "强",
+        "topScore": "2-0",
+        "topScores": [
+          {
+            "score": "2-0",
+            "probability": 0.1494,
+            "fairOdds": 6.69
+          },
+          {
+            "score": "3-0",
+            "probability": 0.1468,
+            "fairOdds": 6.81
+          },
+          {
+            "score": "4-0",
+            "probability": 0.1082,
+            "fairOdds": 9.24
+          },
+          {
+            "score": "1-0",
+            "probability": 0.098,
+            "fairOdds": 10.21
+          },
+          {
+            "score": "5-0",
+            "probability": 0.0638,
+            "fairOdds": 15.68
+          }
+        ],
+        "fairOdds": {
+          "win": 1.15,
+          "draw": 10.06,
+          "loss": 36.43
+        }
+      }
+    },
+    {
+      "id": "760451",
+      "kickoffUtc": "2026-06-21T19:00:00Z",
+      "beijingDate": "2026-06-22",
+      "beijingTime": "03:00",
+      "weekday": "周一",
+      "group": "G",
+      "venue": "SoFi Stadium",
+      "home": {
+        "name": "Belgium",
+        "zh": "比利时",
+        "abbr": "BEL",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png"
+      },
+      "away": {
+        "name": "Iran",
+        "zh": "伊朗",
+        "abbr": "IRN",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.41,
+        "drawOdds": 4.8,
+        "lossOdds": 8.0,
+        "margin": 0.0435,
+        "totalLine": 2.5,
+        "overOdds": 1.87,
+        "underOdds": 1.95
+      },
+      "prediction": {
+        "win": 0.6787,
+        "draw": 0.2112,
+        "loss": 0.1101,
+        "homeXg": 2.03,
+        "awayXg": 0.7,
+        "totalXg": 2.73,
+        "over25": 0.5131,
+        "btts": 0.4436,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "中",
+        "topScore": "2-0",
+        "topScores": [
+          {
+            "score": "2-0",
+            "probability": 0.1347,
+            "fairOdds": 7.42
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1253,
+            "fairOdds": 7.98
+          },
+          {
+            "score": "1-1",
+            "probability": 0.1,
+            "fairOdds": 10.0
+          },
+          {
+            "score": "2-1",
+            "probability": 0.094,
+            "fairOdds": 10.64
+          },
+          {
+            "score": "3-0",
+            "probability": 0.0912,
+            "fairOdds": 10.97
+          }
+        ],
+        "fairOdds": {
+          "win": 1.47,
+          "draw": 4.74,
+          "loss": 9.08
+        }
+      }
+    },
+    {
+      "id": "760450",
+      "kickoffUtc": "2026-06-21T22:00:00Z",
+      "beijingDate": "2026-06-22",
+      "beijingTime": "06:00",
+      "weekday": "周一",
+      "group": "H",
+      "venue": "Hard Rock Stadium",
+      "home": {
+        "name": "Uruguay",
+        "zh": "乌拉圭",
+        "abbr": "URU",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png"
+      },
+      "away": {
+        "name": "Cape Verde",
+        "zh": "佛得角",
+        "abbr": "CPV",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.44,
+        "drawOdds": 4.6,
+        "lossOdds": 7.5,
+        "margin": 0.043,
+        "totalLine": 2.5,
+        "overOdds": 1.87,
+        "underOdds": 1.91
+      },
+      "prediction": {
+        "win": 0.6621,
+        "draw": 0.2186,
+        "loss": 0.1193,
+        "homeXg": 1.98,
+        "awayXg": 0.72,
+        "totalXg": 2.7,
+        "over25": 0.507,
+        "btts": 0.4511,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "中",
+        "topScore": "2-0",
+        "topScores": [
+          {
+            "score": "2-0",
+            "probability": 0.1314,
+            "fairOdds": 7.61
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1251,
+            "fairOdds": 8.0
+          },
+          {
+            "score": "1-1",
+            "probability": 0.1036,
+            "fairOdds": 9.65
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0949,
+            "fairOdds": 10.53
+          },
+          {
+            "score": "3-0",
+            "probability": 0.0867,
+            "fairOdds": 11.53
+          }
+        ],
+        "fairOdds": {
+          "win": 1.51,
+          "draw": 4.58,
+          "loss": 8.38
+        }
+      }
+    },
+    {
+      "id": "760452",
+      "kickoffUtc": "2026-06-22T01:00:00Z",
+      "beijingDate": "2026-06-22",
+      "beijingTime": "09:00",
+      "weekday": "周一",
+      "group": "G",
+      "venue": "BC Place",
+      "home": {
+        "name": "New Zealand",
+        "zh": "新西兰",
+        "abbr": "NZL",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png"
+      },
+      "away": {
+        "name": "Egypt",
+        "zh": "埃及",
+        "abbr": "EGY",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 4.7,
+        "drawOdds": 3.85,
+        "lossOdds": 1.77,
+        "margin": 0.0377,
+        "totalLine": 2.5,
+        "overOdds": 2.25,
+        "underOdds": 1.67
+      },
+      "prediction": {
+        "win": 0.1892,
+        "draw": 0.2724,
+        "loss": 0.5383,
+        "homeXg": 0.83,
+        "awayXg": 1.57,
+        "totalXg": 2.4,
+        "over25": 0.4309,
+        "btts": 0.4569,
+        "pick": "负",
+        "cover": "负/平",
+        "confidence": "谨慎",
+        "topScore": "0-1",
+        "topScores": [
+          {
+            "score": "0-1",
+            "probability": 0.1326,
+            "fairOdds": 7.54
+          },
+          {
+            "score": "1-1",
+            "probability": 0.1277,
+            "fairOdds": 7.83
+          },
+          {
+            "score": "0-2",
+            "probability": 0.1115,
+            "fairOdds": 8.97
+          },
+          {
+            "score": "0-0",
+            "probability": 0.1,
+            "fairOdds": 10.0
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0928,
+            "fairOdds": 10.77
+          }
+        ],
+        "fairOdds": {
+          "win": 5.28,
+          "draw": 3.67,
+          "loss": 1.86
+        }
+      }
+    },
+    {
+      "id": "760456",
+      "kickoffUtc": "2026-06-22T17:00:00Z",
+      "beijingDate": "2026-06-23",
+      "beijingTime": "01:00",
+      "weekday": "周二",
+      "group": "J",
+      "venue": "AT&T Stadium",
+      "home": {
+        "name": "Argentina",
+        "zh": "阿根廷",
+        "abbr": "ARG",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png"
+      },
+      "away": {
+        "name": "Austria",
+        "zh": "奥地利",
+        "abbr": "AUT",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.65,
+        "drawOdds": 3.9,
+        "lossOdds": 5.75,
+        "margin": 0.0382,
+        "totalLine": 2.5,
+        "overOdds": 1.95,
+        "underOdds": 1.87
+      },
+      "prediction": {
+        "win": 0.5853,
+        "draw": 0.2475,
+        "loss": 0.1672,
+        "homeXg": 1.78,
+        "awayXg": 0.85,
+        "totalXg": 2.63,
+        "over25": 0.4891,
+        "btts": 0.4847,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "中",
+        "topScore": "1-0",
+        "topScores": [
+          {
+            "score": "1-0",
+            "probability": 0.1196,
+            "fairOdds": 8.36
+          },
+          {
+            "score": "1-1",
+            "probability": 0.1178,
+            "fairOdds": 8.49
+          },
+          {
+            "score": "2-0",
+            "probability": 0.1142,
+            "fairOdds": 8.76
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0971,
+            "fairOdds": 10.3
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0808,
+            "fairOdds": 12.38
+          }
+        ],
+        "fairOdds": {
+          "win": 1.71,
+          "draw": 4.04,
+          "loss": 5.98
+        }
+      }
+    },
+    {
+      "id": "760457",
+      "kickoffUtc": "2026-06-22T21:00:00Z",
+      "beijingDate": "2026-06-23",
+      "beijingTime": "05:00",
+      "weekday": "周二",
+      "group": "I",
+      "venue": "Lincoln Financial Field",
+      "home": {
+        "name": "France",
+        "zh": "法国",
+        "abbr": "FRA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+      },
+      "away": {
+        "name": "Iraq",
+        "zh": "伊拉克",
+        "abbr": "IRQ",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.12,
+        "drawOdds": 9.0,
+        "lossOdds": 26.0,
+        "margin": 0.0385,
+        "totalLine": 3.5,
+        "overOdds": 2.2,
+        "underOdds": 1.67
+      },
+      "prediction": {
+        "win": 0.8563,
+        "draw": 0.1096,
+        "loss": 0.0341,
+        "homeXg": 2.88,
+        "awayXg": 0.47,
+        "totalXg": 3.35,
+        "over25": 0.6509,
+        "btts": 0.3607,
+        "pick": "胜",
+        "cover": "胜",
+        "confidence": "强",
+        "topScore": "2-0",
+        "topScores": [
+          {
+            "score": "2-0",
+            "probability": 0.1449,
+            "fairOdds": 6.9
+          },
+          {
+            "score": "3-0",
+            "probability": 0.139,
+            "fairOdds": 7.19
+          },
+          {
+            "score": "4-0",
+            "probability": 0.1,
+            "fairOdds": 10.0
+          },
+          {
+            "score": "1-0",
+            "probability": 0.0969,
+            "fairOdds": 10.32
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0688,
+            "fairOdds": 14.53
+          }
+        ],
+        "fairOdds": {
+          "win": 1.17,
+          "draw": 9.13,
+          "loss": 29.3
+        }
+      }
+    },
+    {
+      "id": "760454",
+      "kickoffUtc": "2026-06-23T00:00:00Z",
+      "beijingDate": "2026-06-23",
+      "beijingTime": "08:00",
+      "weekday": "周二",
+      "group": "I",
+      "venue": "MetLife Stadium",
+      "home": {
+        "name": "Norway",
+        "zh": "挪威",
+        "abbr": "NOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png"
+      },
+      "away": {
+        "name": "Senegal",
+        "zh": "塞内加尔",
+        "abbr": "SEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 2.15,
+        "drawOdds": 3.6,
+        "lossOdds": 3.4,
+        "margin": 0.037,
+        "totalLine": 2.5,
+        "overOdds": 1.95,
+        "underOdds": 1.83
+      },
+      "prediction": {
+        "win": 0.4449,
+        "draw": 0.2773,
+        "loss": 0.2777,
+        "homeXg": 1.49,
+        "awayXg": 1.13,
+        "totalXg": 2.62,
+        "over25": 0.4866,
+        "btts": 0.5342,
+        "pick": "胜",
+        "cover": "胜/负",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.1324,
+            "fairOdds": 7.55
+          },
+          {
+            "score": "1-0",
+            "probability": 0.0987,
+            "fairOdds": 10.13
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0913,
+            "fairOdds": 10.95
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0826,
+            "fairOdds": 12.11
+          },
+          {
+            "score": "2-0",
+            "probability": 0.0808,
+            "fairOdds": 12.37
+          }
+        ],
+        "fairOdds": {
+          "win": 2.25,
+          "draw": 3.61,
+          "loss": 3.6
+        }
+      }
+    },
+    {
+      "id": "760455",
+      "kickoffUtc": "2026-06-23T03:00:00Z",
+      "beijingDate": "2026-06-23",
+      "beijingTime": "11:00",
+      "weekday": "周二",
+      "group": "J",
+      "venue": "Levi's Stadium",
+      "home": {
+        "name": "Jordan",
+        "zh": "约旦",
+        "abbr": "JOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png"
+      },
+      "away": {
+        "name": "Algeria",
+        "zh": "阿尔及利亚",
+        "abbr": "ALG",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 6.5,
+        "drawOdds": 4.3,
+        "lossOdds": 1.53,
+        "margin": 0.0416,
+        "totalLine": 2.5,
+        "overOdds": 1.91,
+        "underOdds": 1.87
+      },
+      "prediction": {
+        "win": 0.14,
+        "draw": 0.2329,
+        "loss": 0.6272,
+        "homeXg": 0.78,
+        "awayXg": 1.88,
+        "totalXg": 2.66,
+        "over25": 0.4965,
+        "btts": 0.4664,
+        "pick": "负",
+        "cover": "负/平",
+        "confidence": "中",
+        "topScore": "0-2",
+        "topScores": [
+          {
+            "score": "0-2",
+            "probability": 0.1239,
+            "fairOdds": 8.07
+          },
+          {
+            "score": "0-1",
+            "probability": 0.1235,
+            "fairOdds": 8.1
+          },
+          {
+            "score": "1-1",
+            "probability": 0.1106,
+            "fairOdds": 9.04
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0964,
+            "fairOdds": 10.38
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0781,
+            "fairOdds": 12.8
+          }
+        ],
+        "fairOdds": {
+          "win": 7.14,
+          "draw": 4.29,
+          "loss": 1.59
+        }
+      }
+    },
+    {
+      "id": "760461",
+      "kickoffUtc": "2026-06-23T17:00:00Z",
+      "beijingDate": "2026-06-24",
+      "beijingTime": "01:00",
+      "weekday": "周三",
+      "group": "K",
+      "venue": "NRG Stadium",
+      "home": {
+        "name": "Portugal",
+        "zh": "葡萄牙",
+        "abbr": "POR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png"
+      },
+      "away": {
+        "name": "Uzbekistan",
+        "zh": "乌兹别克斯坦",
+        "abbr": "UZB",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.24,
+        "drawOdds": 6.5,
+        "lossOdds": 12.0,
+        "margin": 0.0467,
+        "totalLine": 3.5,
+        "overOdds": 2.4,
+        "underOdds": 1.57
+      },
+      "prediction": {
+        "win": 0.7731,
+        "draw": 0.1559,
+        "loss": 0.0709,
+        "homeXg": 2.53,
+        "awayXg": 0.67,
+        "totalXg": 3.2,
+        "over25": 0.619,
+        "btts": 0.4525,
+        "pick": "胜",
+        "cover": "胜",
+        "confidence": "强",
+        "topScore": "2-0",
+        "topScores": [
+          {
+            "score": "2-0",
+            "probability": 0.1311,
+            "fairOdds": 7.63
+          },
+          {
+            "score": "3-0",
+            "probability": 0.1106,
+            "fairOdds": 9.04
+          },
+          {
+            "score": "1-0",
+            "probability": 0.0981,
+            "fairOdds": 10.19
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0872,
+            "fairOdds": 11.47
+          },
+          {
+            "score": "1-1",
+            "probability": 0.0744,
+            "fairOdds": 13.43
+          }
+        ],
+        "fairOdds": {
+          "win": 1.29,
+          "draw": 6.41,
+          "loss": 14.1
+        }
+      }
+    },
+    {
+      "id": "760458",
+      "kickoffUtc": "2026-06-23T20:00:00Z",
+      "beijingDate": "2026-06-24",
+      "beijingTime": "04:00",
+      "weekday": "周三",
+      "group": "L",
+      "venue": "Gillette Stadium",
+      "home": {
+        "name": "England",
+        "zh": "英格兰",
+        "abbr": "ENG",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+      },
+      "away": {
+        "name": "Ghana",
+        "zh": "加纳",
+        "abbr": "GHA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.31,
+        "drawOdds": 5.5,
+        "lossOdds": 10.0,
+        "margin": 0.0437,
+        "totalLine": 2.5,
+        "overOdds": 1.69,
+        "underOdds": 2.15
+      },
+      "prediction": {
+        "win": 0.7296,
+        "draw": 0.183,
+        "loss": 0.0874,
+        "homeXg": 2.26,
+        "awayXg": 0.67,
+        "totalXg": 2.93,
+        "over25": 0.5609,
+        "btts": 0.4428,
+        "pick": "胜",
+        "cover": "胜",
+        "confidence": "强",
+        "topScore": "2-0",
+        "topScores": [
+          {
+            "score": "2-0",
+            "probability": 0.1367,
+            "fairOdds": 7.32
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1144,
+            "fairOdds": 8.74
+          },
+          {
+            "score": "3-0",
+            "probability": 0.1031,
+            "fairOdds": 9.7
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0912,
+            "fairOdds": 10.96
+          },
+          {
+            "score": "1-1",
+            "probability": 0.0871,
+            "fairOdds": 11.48
+          }
+        ],
+        "fairOdds": {
+          "win": 1.37,
+          "draw": 5.46,
+          "loss": 11.44
+        }
+      }
+    },
+    {
+      "id": "760460",
+      "kickoffUtc": "2026-06-23T23:00:00Z",
+      "beijingDate": "2026-06-24",
+      "beijingTime": "07:00",
+      "weekday": "周三",
+      "group": "L",
+      "venue": "BMO Field",
+      "home": {
+        "name": "Panama",
+        "zh": "巴拿马",
+        "abbr": "PAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png"
+      },
+      "away": {
+        "name": "Croatia",
+        "zh": "克罗地亚",
+        "abbr": "CRO",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 6.5,
+        "drawOdds": 4.0,
+        "lossOdds": 1.56,
+        "margin": 0.0467,
+        "totalLine": 2.5,
+        "overOdds": 2.05,
+        "underOdds": 1.77
+      },
+      "prediction": {
+        "win": 0.1435,
+        "draw": 0.2435,
+        "loss": 0.613,
+        "homeXg": 0.75,
+        "awayXg": 1.78,
+        "totalXg": 2.53,
+        "over25": 0.4645,
+        "btts": 0.4466,
+        "pick": "负",
+        "cover": "负/平",
+        "confidence": "中",
+        "topScore": "0-1",
+        "topScores": [
+          {
+            "score": "0-1",
+            "probability": 0.1334,
+            "fairOdds": 7.5
+          },
+          {
+            "score": "0-2",
+            "probability": 0.1266,
+            "fairOdds": 7.9
+          },
+          {
+            "score": "1-1",
+            "probability": 0.1145,
+            "fairOdds": 8.73
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0946,
+            "fairOdds": 10.57
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0879,
+            "fairOdds": 11.37
+          }
+        ],
+        "fairOdds": {
+          "win": 6.97,
+          "draw": 4.11,
+          "loss": 1.63
+        }
+      }
+    },
+    {
+      "id": "760459",
+      "kickoffUtc": "2026-06-24T02:00:00Z",
+      "beijingDate": "2026-06-24",
+      "beijingTime": "10:00",
+      "weekday": "周三",
+      "group": "K",
+      "venue": "Estadio Akron",
+      "home": {
+        "name": "Colombia",
+        "zh": "哥伦比亚",
+        "abbr": "COL",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png"
+      },
+      "away": {
+        "name": "Congo DR",
+        "zh": "民主刚果",
+        "abbr": "COD",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.45,
+        "drawOdds": 4.4,
+        "lossOdds": 8.0,
+        "margin": 0.0398,
+        "totalLine": 2.5,
+        "overOdds": 2.15,
+        "underOdds": 1.69
+      },
+      "prediction": {
+        "win": 0.6596,
+        "draw": 0.2304,
+        "loss": 0.1099,
+        "homeXg": 1.83,
+        "awayXg": 0.61,
+        "totalXg": 2.45,
+        "over25": 0.4433,
+        "btts": 0.3938,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "中",
+        "topScore": "1-0",
+        "topScores": [
+          {
+            "score": "1-0",
+            "probability": 0.1506,
+            "fairOdds": 6.64
+          },
+          {
+            "score": "2-0",
+            "probability": 0.1453,
+            "fairOdds": 6.88
+          },
+          {
+            "score": "1-1",
+            "probability": 0.1052,
+            "fairOdds": 9.51
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0941,
+            "fairOdds": 10.63
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0894,
+            "fairOdds": 11.19
+          }
+        ],
+        "fairOdds": {
+          "win": 1.52,
+          "draw": 4.34,
+          "loss": 9.1
+        }
+      }
+    },
+    {
+      "id": "760462",
+      "kickoffUtc": "2026-06-24T19:00:00Z",
+      "beijingDate": "2026-06-25",
+      "beijingTime": "03:00",
+      "weekday": "周四",
+      "group": "B",
+      "venue": "Lumen Field",
+      "home": {
+        "name": "Bosnia-Herzegovina",
+        "zh": "波黑",
+        "abbr": "BIH",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png"
+      },
+      "away": {
+        "name": "Qatar",
+        "zh": "卡塔尔",
+        "abbr": "QAT",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.67,
+        "drawOdds": 3.75,
+        "lossOdds": 5.75,
+        "margin": 0.0406,
+        "totalLine": 2.5,
+        "overOdds": 2.1,
+        "underOdds": 1.74
+      },
+      "prediction": {
+        "win": 0.5768,
+        "draw": 0.257,
+        "loss": 0.1662,
+        "homeXg": 1.69,
+        "awayXg": 0.8,
+        "totalXg": 2.49,
+        "over25": 0.4536,
+        "btts": 0.458,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "谨慎",
+        "topScore": "1-0",
+        "topScores": [
+          {
+            "score": "1-0",
+            "probability": 0.1312,
+            "fairOdds": 7.62
+          },
+          {
+            "score": "1-1",
+            "probability": 0.1211,
+            "fairOdds": 8.26
+          },
+          {
+            "score": "2-0",
+            "probability": 0.1184,
+            "fairOdds": 8.45
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0947,
+            "fairOdds": 10.56
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0919,
+            "fairOdds": 10.88
+          }
+        ],
+        "fairOdds": {
+          "win": 1.73,
+          "draw": 3.89,
+          "loss": 6.02
+        }
+      }
+    },
+    {
+      "id": "760463",
+      "kickoffUtc": "2026-06-24T19:00:00Z",
+      "beijingDate": "2026-06-25",
+      "beijingTime": "03:00",
+      "weekday": "周四",
+      "group": "B",
+      "venue": "BC Place",
+      "home": {
+        "name": "Switzerland",
+        "zh": "瑞士",
+        "abbr": "SUI",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png"
+      },
+      "away": {
+        "name": "Canada",
+        "zh": "加拿大",
+        "abbr": "CAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 2.15,
+        "drawOdds": 3.45,
+        "lossOdds": 3.5,
+        "margin": 0.0407,
+        "totalLine": 2.5,
+        "overOdds": 2.1,
+        "underOdds": 1.74
+      },
+      "prediction": {
+        "win": 0.4441,
+        "draw": 0.285,
+        "loss": 0.271,
+        "homeXg": 1.43,
+        "awayXg": 1.06,
+        "totalXg": 2.5,
+        "over25": 0.4549,
+        "btts": 0.5085,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.1357,
+            "fairOdds": 7.37
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1079,
+            "fairOdds": 9.27
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0925,
+            "fairOdds": 10.81
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0898,
+            "fairOdds": 11.13
+          },
+          {
+            "score": "2-0",
+            "probability": 0.0843,
+            "fairOdds": 11.86
+          }
+        ],
+        "fairOdds": {
+          "win": 2.25,
+          "draw": 3.51,
+          "loss": 3.69
+        }
+      }
+    },
+    {
+      "id": "760464",
+      "kickoffUtc": "2026-06-24T22:00:00Z",
+      "beijingDate": "2026-06-25",
+      "beijingTime": "06:00",
+      "weekday": "周四",
+      "group": "C",
+      "venue": "Mercedes-Benz Stadium",
+      "home": {
+        "name": "Morocco",
+        "zh": "摩洛哥",
+        "abbr": "MAR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png"
+      },
+      "away": {
+        "name": "Haiti",
+        "zh": "海地",
+        "abbr": "HAI",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.36,
+        "drawOdds": 5.0,
+        "lossOdds": 9.0,
+        "margin": 0.048,
+        "totalLine": 2.5,
+        "overOdds": 1.71,
+        "underOdds": 2.1
+      },
+      "prediction": {
+        "win": 0.7029,
+        "draw": 0.1957,
+        "loss": 0.1014,
+        "homeXg": 2.18,
+        "awayXg": 0.71,
+        "totalXg": 2.89,
+        "over25": 0.5511,
+        "btts": 0.4586,
+        "pick": "胜",
+        "cover": "胜",
+        "confidence": "中",
+        "topScore": "2-0",
+        "topScores": [
+          {
+            "score": "2-0",
+            "probability": 0.1318,
+            "fairOdds": 7.59
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1143,
+            "fairOdds": 8.75
+          },
+          {
+            "score": "3-0",
+            "probability": 0.0955,
+            "fairOdds": 10.47
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0939,
+            "fairOdds": 10.65
+          },
+          {
+            "score": "1-1",
+            "probability": 0.0933,
+            "fairOdds": 10.72
+          }
+        ],
+        "fairOdds": {
+          "win": 1.42,
+          "draw": 5.11,
+          "loss": 9.86
+        }
+      }
+    },
+    {
+      "id": "760465",
+      "kickoffUtc": "2026-06-24T22:00:00Z",
+      "beijingDate": "2026-06-25",
+      "beijingTime": "06:00",
+      "weekday": "周四",
+      "group": "C",
+      "venue": "Hard Rock Stadium",
+      "home": {
+        "name": "Scotland",
+        "zh": "苏格兰",
+        "abbr": "SCO",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png"
+      },
+      "away": {
+        "name": "Brazil",
+        "zh": "巴西",
+        "abbr": "BRA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 6.0,
+        "drawOdds": 5.0,
+        "lossOdds": 1.47,
+        "margin": 0.0492,
+        "totalLine": 2.5,
+        "overOdds": 1.83,
+        "underOdds": 2.0
+      },
+      "prediction": {
+        "win": 0.1338,
+        "draw": 0.2215,
+        "loss": 0.6447,
+        "homeXg": 0.8,
+        "awayXg": 1.99,
+        "totalXg": 2.79,
+        "over25": 0.527,
+        "btts": 0.4821,
+        "pick": "负",
+        "cover": "负/平",
+        "confidence": "中",
+        "topScore": "0-2",
+        "topScores": [
+          {
+            "score": "0-2",
+            "probability": 0.1219,
+            "fairOdds": 8.2
+          },
+          {
+            "score": "0-1",
+            "probability": 0.1149,
+            "fairOdds": 8.71
+          },
+          {
+            "score": "1-1",
+            "probability": 0.1057,
+            "fairOdds": 9.46
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0972,
+            "fairOdds": 10.28
+          },
+          {
+            "score": "0-3",
+            "probability": 0.0808,
+            "fairOdds": 12.38
+          }
+        ],
+        "fairOdds": {
+          "win": 7.47,
+          "draw": 4.51,
+          "loss": 1.55
+        }
+      }
+    },
+    {
+      "id": "760467",
+      "kickoffUtc": "2026-06-25T01:00:00Z",
+      "beijingDate": "2026-06-25",
+      "beijingTime": "09:00",
+      "weekday": "周四",
+      "group": "A",
+      "venue": "Estadio Banorte",
+      "home": {
+        "name": "Czechia",
+        "zh": "捷克",
+        "abbr": "CZE",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png"
+      },
+      "away": {
+        "name": "Mexico",
+        "zh": "墨西哥",
+        "abbr": "MEX",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 4.5,
+        "drawOdds": 3.6,
+        "lossOdds": 1.83,
+        "margin": 0.0455,
+        "totalLine": 2.5,
+        "overOdds": 2.15,
+        "underOdds": 1.71
+      },
+      "prediction": {
+        "win": 0.207,
+        "draw": 0.2739,
+        "loss": 0.5191,
+        "homeXg": 0.9,
+        "awayXg": 1.56,
+        "totalXg": 2.46,
+        "over25": 0.4452,
+        "btts": 0.4775,
+        "pick": "负",
+        "cover": "负/平",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.1295,
+            "fairOdds": 7.72
+          },
+          {
+            "score": "0-1",
+            "probability": 0.124,
+            "fairOdds": 8.06
+          },
+          {
+            "score": "0-2",
+            "probability": 0.1042,
+            "fairOdds": 9.6
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0952,
+            "fairOdds": 10.5
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0935,
+            "fairOdds": 10.69
+          }
+        ],
+        "fairOdds": {
+          "win": 4.83,
+          "draw": 3.65,
+          "loss": 1.93
+        }
+      }
+    },
+    {
+      "id": "760466",
+      "kickoffUtc": "2026-06-25T01:00:00Z",
+      "beijingDate": "2026-06-25",
+      "beijingTime": "09:00",
+      "weekday": "周四",
+      "group": "A",
+      "venue": "Estadio BBVA",
+      "home": {
+        "name": "South Africa",
+        "zh": "南非",
+        "abbr": "RSA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png"
+      },
+      "away": {
+        "name": "South Korea",
+        "zh": "韩国",
+        "abbr": "KOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 5.75,
+        "drawOdds": 4.1,
+        "lossOdds": 1.61,
+        "margin": 0.0405,
+        "totalLine": 2.5,
+        "overOdds": 2.0,
+        "underOdds": 1.8
+      },
+      "prediction": {
+        "win": 0.1575,
+        "draw": 0.2468,
+        "loss": 0.5957,
+        "homeXg": 0.8,
+        "awayXg": 1.77,
+        "totalXg": 2.58,
+        "over25": 0.4765,
+        "btts": 0.4679,
+        "pick": "负",
+        "cover": "负/平",
+        "confidence": "中",
+        "topScore": "0-1",
+        "topScores": [
+          {
+            "score": "0-1",
+            "probability": 0.1258,
+            "fairOdds": 7.95
+          },
+          {
+            "score": "0-2",
+            "probability": 0.1194,
+            "fairOdds": 8.38
+          },
+          {
+            "score": "1-1",
+            "probability": 0.1169,
+            "fairOdds": 8.55
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0961,
+            "fairOdds": 10.41
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0844,
+            "fairOdds": 11.84
+          }
+        ],
+        "fairOdds": {
+          "win": 6.35,
+          "draw": 4.05,
+          "loss": 1.68
+        }
+      }
+    },
+    {
+      "id": "760473",
+      "kickoffUtc": "2026-06-25T20:00:00Z",
+      "beijingDate": "2026-06-26",
+      "beijingTime": "04:00",
+      "weekday": "周五",
+      "group": "E",
+      "venue": "Lincoln Financial Field",
+      "home": {
+        "name": "Curaçao",
+        "zh": "库拉索",
+        "abbr": "CUW",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png"
+      },
+      "away": {
+        "name": "Ivory Coast",
+        "zh": "科特迪瓦",
+        "abbr": "CIV",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 13.0,
+        "drawOdds": 7.0,
+        "lossOdds": 1.22,
+        "margin": 0.038,
+        "totalLine": 2.5,
+        "overOdds": 1.65,
+        "underOdds": 2.25
+      },
+      "prediction": {
+        "win": 0.0587,
+        "draw": 0.1531,
+        "loss": 0.7882,
+        "homeXg": 0.55,
+        "awayXg": 2.46,
+        "totalXg": 3.01,
+        "over25": 0.5796,
+        "btts": 0.3936,
+        "pick": "负",
+        "cover": "负",
+        "confidence": "强",
+        "topScore": "0-2",
+        "topScores": [
+          {
+            "score": "0-2",
+            "probability": 0.1488,
+            "fairOdds": 6.72
+          },
+          {
+            "score": "0-3",
+            "probability": 0.122,
+            "fairOdds": 8.2
+          },
+          {
+            "score": "0-1",
+            "probability": 0.1156,
+            "fairOdds": 8.65
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0822,
+            "fairOdds": 12.17
+          },
+          {
+            "score": "0-4",
+            "probability": 0.075,
+            "fairOdds": 13.33
+          }
+        ],
+        "fairOdds": {
+          "win": 17.03,
+          "draw": 6.53,
+          "loss": 1.27
+        }
+      }
+    },
+    {
+      "id": "760468",
+      "kickoffUtc": "2026-06-25T20:00:00Z",
+      "beijingDate": "2026-06-26",
+      "beijingTime": "04:00",
+      "weekday": "周五",
+      "group": "E",
+      "venue": "MetLife Stadium",
+      "home": {
+        "name": "Ecuador",
+        "zh": "厄瓜多尔",
+        "abbr": "ECU",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png"
+      },
+      "away": {
+        "name": "Germany",
+        "zh": "德国",
+        "abbr": "GER",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 4.8,
+        "drawOdds": 3.9,
+        "lossOdds": 1.74,
+        "margin": 0.0392,
+        "totalLine": 2.5,
+        "overOdds": 1.91,
+        "underOdds": 1.91
+      },
+      "prediction": {
+        "win": 0.1949,
+        "draw": 0.2544,
+        "loss": 0.5508,
+        "homeXg": 0.94,
+        "awayXg": 1.73,
+        "totalXg": 2.68,
+        "over25": 0.5015,
+        "btts": 0.5125,
+        "pick": "负",
+        "cover": "负/平",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.1214,
+            "fairOdds": 8.24
+          },
+          {
+            "score": "0-1",
+            "probability": 0.11,
+            "fairOdds": 9.09
+          },
+          {
+            "score": "0-2",
+            "probability": 0.1032,
+            "fairOdds": 9.69
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0975,
+            "fairOdds": 10.25
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0776,
+            "fairOdds": 12.89
+          }
+        ],
+        "fairOdds": {
+          "win": 5.13,
+          "draw": 3.93,
+          "loss": 1.82
+        }
+      }
+    },
+    {
+      "id": "760471",
+      "kickoffUtc": "2026-06-25T23:00:00Z",
+      "beijingDate": "2026-06-26",
+      "beijingTime": "07:00",
+      "weekday": "周五",
+      "group": "F",
+      "venue": "AT&T Stadium",
+      "home": {
+        "name": "Japan",
+        "zh": "日本",
+        "abbr": "JPN",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png"
+      },
+      "away": {
+        "name": "Sweden",
+        "zh": "瑞典",
+        "abbr": "SWE",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 2.1,
+        "drawOdds": 3.45,
+        "lossOdds": 3.55,
+        "margin": 0.0477,
+        "totalLine": 2.5,
+        "overOdds": 2.05,
+        "underOdds": 1.77
+      },
+      "prediction": {
+        "win": 0.4528,
+        "draw": 0.2815,
+        "loss": 0.2657,
+        "homeXg": 1.46,
+        "awayXg": 1.07,
+        "totalXg": 2.53,
+        "over25": 0.4645,
+        "btts": 0.5145,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.1342,
+            "fairOdds": 7.45
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1065,
+            "fairOdds": 9.39
+          },
+          {
+            "score": "2-1",
+            "probability": 0.091,
+            "fairOdds": 10.99
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0894,
+            "fairOdds": 11.19
+          },
+          {
+            "score": "2-0",
+            "probability": 0.0853,
+            "fairOdds": 11.73
+          }
+        ],
+        "fairOdds": {
+          "win": 2.21,
+          "draw": 3.55,
+          "loss": 3.76
+        }
+      }
+    },
+    {
+      "id": "760472",
+      "kickoffUtc": "2026-06-25T23:00:00Z",
+      "beijingDate": "2026-06-26",
+      "beijingTime": "07:00",
+      "weekday": "周五",
+      "group": "F",
+      "venue": "GEHA Field at Arrowhead Stadium",
+      "home": {
+        "name": "Tunisia",
+        "zh": "突尼斯",
+        "abbr": "TUN",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png"
+      },
+      "away": {
+        "name": "Netherlands",
+        "zh": "荷兰",
+        "abbr": "NED",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 6.5,
+        "drawOdds": 4.4,
+        "lossOdds": 1.5,
+        "margin": 0.0478,
+        "totalLine": 2.5,
+        "overOdds": 1.87,
+        "underOdds": 1.95
+      },
+      "prediction": {
+        "win": 0.1381,
+        "draw": 0.2276,
+        "loss": 0.6342,
+        "homeXg": 0.79,
+        "awayXg": 1.93,
+        "totalXg": 2.73,
+        "over25": 0.5125,
+        "btts": 0.4761,
+        "pick": "负",
+        "cover": "负/平",
+        "confidence": "中",
+        "topScore": "0-2",
+        "topScores": [
+          {
+            "score": "0-2",
+            "probability": 0.1224,
+            "fairOdds": 8.17
+          },
+          {
+            "score": "0-1",
+            "probability": 0.1186,
+            "fairOdds": 8.43
+          },
+          {
+            "score": "1-1",
+            "probability": 0.1084,
+            "fairOdds": 9.22
+          },
+          {
+            "score": "1-2",
+            "probability": 0.097,
+            "fairOdds": 10.31
+          },
+          {
+            "score": "0-3",
+            "probability": 0.0788,
+            "fairOdds": 12.68
+          }
+        ],
+        "fairOdds": {
+          "win": 7.24,
+          "draw": 4.39,
+          "loss": 1.58
+        }
+      }
+    },
+    {
+      "id": "760469",
+      "kickoffUtc": "2026-06-26T02:00:00Z",
+      "beijingDate": "2026-06-26",
+      "beijingTime": "10:00",
+      "weekday": "周五",
+      "group": "D",
+      "venue": "Levi's Stadium",
+      "home": {
+        "name": "Paraguay",
+        "zh": "巴拉圭",
+        "abbr": "PAR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png"
+      },
+      "away": {
+        "name": "Australia",
+        "zh": "澳大利亚",
+        "abbr": "AUS",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 2.15,
+        "drawOdds": 3.3,
+        "lossOdds": 3.6,
+        "margin": 0.0459,
+        "totalLine": 2.5,
+        "overOdds": 2.3,
+        "underOdds": 1.62
+      },
+      "prediction": {
+        "win": 0.4426,
+        "draw": 0.2949,
+        "loss": 0.2625,
+        "homeXg": 1.36,
+        "awayXg": 0.99,
+        "totalXg": 2.34,
+        "over25": 0.4159,
+        "btts": 0.4763,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.1388,
+            "fairOdds": 7.21
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1198,
+            "fairOdds": 8.34
+          },
+          {
+            "score": "0-0",
+            "probability": 0.1061,
+            "fairOdds": 9.42
+          },
+          {
+            "score": "2-0",
+            "probability": 0.0883,
+            "fairOdds": 11.32
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0872,
+            "fairOdds": 11.47
+          }
+        ],
+        "fairOdds": {
+          "win": 2.26,
+          "draw": 3.39,
+          "loss": 3.81
+        }
+      }
+    },
+    {
+      "id": "760470",
+      "kickoffUtc": "2026-06-26T02:00:00Z",
+      "beijingDate": "2026-06-26",
+      "beijingTime": "10:00",
+      "weekday": "周五",
+      "group": "D",
+      "venue": "SoFi Stadium",
+      "home": {
+        "name": "Türkiye",
+        "zh": "土耳其",
+        "abbr": "TUR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png"
+      },
+      "away": {
+        "name": "United States",
+        "zh": "美国",
+        "abbr": "USA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 2.55,
+        "drawOdds": 3.65,
+        "lossOdds": 2.65,
+        "margin": 0.0435,
+        "totalLine": 2.5,
+        "overOdds": 1.87,
+        "underOdds": 1.91
+      },
+      "prediction": {
+        "win": 0.3688,
+        "draw": 0.2773,
+        "loss": 0.3539,
+        "homeXg": 1.37,
+        "awayXg": 1.34,
+        "totalXg": 2.71,
+        "over25": 0.5082,
+        "btts": 0.5599,
+        "pick": "胜",
+        "cover": "胜/负",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.132,
+            "fairOdds": 7.58
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0837,
+            "fairOdds": 11.94
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0817,
+            "fairOdds": 12.23
+          },
+          {
+            "score": "1-0",
+            "probability": 0.0816,
+            "fairOdds": 12.25
+          },
+          {
+            "score": "0-1",
+            "probability": 0.0794,
+            "fairOdds": 12.59
+          }
+        ],
+        "fairOdds": {
+          "win": 2.71,
+          "draw": 3.61,
+          "loss": 2.83
+        }
+      }
+    },
+    {
+      "id": "760475",
+      "kickoffUtc": "2026-06-26T19:00:00Z",
+      "beijingDate": "2026-06-27",
+      "beijingTime": "03:00",
+      "weekday": "周六",
+      "group": "I",
+      "venue": "Gillette Stadium",
+      "home": {
+        "name": "Norway",
+        "zh": "挪威",
+        "abbr": "NOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png"
+      },
+      "away": {
+        "name": "France",
+        "zh": "法国",
+        "abbr": "FRA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 4.3,
+        "drawOdds": 3.65,
+        "lossOdds": 1.87,
+        "margin": 0.0414,
+        "totalLine": 2.5,
+        "overOdds": 1.95,
+        "underOdds": 1.83
+      },
+      "prediction": {
+        "win": 0.2209,
+        "draw": 0.2664,
+        "loss": 0.5127,
+        "homeXg": 0.99,
+        "awayXg": 1.62,
+        "totalXg": 2.61,
+        "over25": 0.4853,
+        "btts": 0.5141,
+        "pick": "负",
+        "cover": "负/平",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.1271,
+            "fairOdds": 7.87
+          },
+          {
+            "score": "0-1",
+            "probability": 0.1095,
+            "fairOdds": 9.13
+          },
+          {
+            "score": "0-2",
+            "probability": 0.0966,
+            "fairOdds": 10.35
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0956,
+            "fairOdds": 10.46
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0826,
+            "fairOdds": 12.11
+          }
+        ],
+        "fairOdds": {
+          "win": 4.53,
+          "draw": 3.75,
+          "loss": 1.95
+        }
+      }
+    },
+    {
+      "id": "760474",
+      "kickoffUtc": "2026-06-26T19:00:00Z",
+      "beijingDate": "2026-06-27",
+      "beijingTime": "03:00",
+      "weekday": "周六",
+      "group": "I",
+      "venue": "BMO Field",
+      "home": {
+        "name": "Senegal",
+        "zh": "塞内加尔",
+        "abbr": "SEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png"
+      },
+      "away": {
+        "name": "Iraq",
+        "zh": "伊拉克",
+        "abbr": "IRQ",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.41,
+        "drawOdds": 4.8,
+        "lossOdds": 8.0,
+        "margin": 0.0435,
+        "totalLine": 2.5,
+        "overOdds": 1.87,
+        "underOdds": 1.91
+      },
+      "prediction": {
+        "win": 0.6787,
+        "draw": 0.212,
+        "loss": 0.1092,
+        "homeXg": 2.02,
+        "awayXg": 0.69,
+        "totalXg": 2.71,
+        "over25": 0.5076,
+        "btts": 0.4385,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "中",
+        "topScore": "2-0",
+        "topScores": [
+          {
+            "score": "2-0",
+            "probability": 0.1361,
+            "fairOdds": 7.35
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1275,
+            "fairOdds": 7.84
+          },
+          {
+            "score": "1-1",
+            "probability": 0.1002,
+            "fairOdds": 9.98
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0936,
+            "fairOdds": 10.69
+          },
+          {
+            "score": "3-0",
+            "probability": 0.0915,
+            "fairOdds": 10.93
+          }
+        ],
+        "fairOdds": {
+          "win": 1.47,
+          "draw": 4.72,
+          "loss": 9.16
+        }
+      }
+    },
+    {
+      "id": "760478",
+      "kickoffUtc": "2026-06-27T00:00:00Z",
+      "beijingDate": "2026-06-27",
+      "beijingTime": "08:00",
+      "weekday": "周六",
+      "group": "H",
+      "venue": "NRG Stadium",
+      "home": {
+        "name": "Cape Verde",
+        "zh": "佛得角",
+        "abbr": "CPV",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png"
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "zh": "沙特阿拉伯",
+        "abbr": "KSA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 2.25,
+        "drawOdds": 3.65,
+        "lossOdds": 3.05,
+        "margin": 0.0463,
+        "totalLine": 2.5,
+        "overOdds": 2.05,
+        "underOdds": 1.77
+      },
+      "prediction": {
+        "win": 0.4154,
+        "draw": 0.2846,
+        "loss": 0.2999,
+        "homeXg": 1.4,
+        "awayXg": 1.15,
+        "totalXg": 2.55,
+        "over25": 0.4689,
+        "btts": 0.5251,
+        "pick": "胜",
+        "cover": "胜/负",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.1358,
+            "fairOdds": 7.36
+          },
+          {
+            "score": "1-0",
+            "probability": 0.0991,
+            "fairOdds": 10.1
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0881,
+            "fairOdds": 11.35
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0879,
+            "fairOdds": 11.38
+          },
+          {
+            "score": "0-1",
+            "probability": 0.0799,
+            "fairOdds": 12.51
+          }
+        ],
+        "fairOdds": {
+          "win": 2.41,
+          "draw": 3.51,
+          "loss": 3.33
+        }
+      }
+    },
+    {
+      "id": "760479",
+      "kickoffUtc": "2026-06-27T00:00:00Z",
+      "beijingDate": "2026-06-27",
+      "beijingTime": "08:00",
+      "weekday": "周六",
+      "group": "H",
+      "venue": "Estadio Akron",
+      "home": {
+        "name": "Uruguay",
+        "zh": "乌拉圭",
+        "abbr": "URU",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png"
+      },
+      "away": {
+        "name": "Spain",
+        "zh": "西班牙",
+        "abbr": "ESP",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 5.5,
+        "drawOdds": 4.0,
+        "lossOdds": 1.65,
+        "margin": 0.0397,
+        "totalLine": 2.5,
+        "overOdds": 1.87,
+        "underOdds": 1.91
+      },
+      "prediction": {
+        "win": 0.1719,
+        "draw": 0.2447,
+        "loss": 0.5834,
+        "homeXg": 0.89,
+        "awayXg": 1.81,
+        "totalXg": 2.7,
+        "over25": 0.5064,
+        "btts": 0.5009,
+        "pick": "负",
+        "cover": "负/平",
+        "confidence": "中",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.1168,
+            "fairOdds": 8.56
+          },
+          {
+            "score": "0-1",
+            "probability": 0.1132,
+            "fairOdds": 8.84
+          },
+          {
+            "score": "0-2",
+            "probability": 0.1104,
+            "fairOdds": 9.06
+          },
+          {
+            "score": "1-2",
+            "probability": 0.098,
+            "fairOdds": 10.21
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0759,
+            "fairOdds": 13.18
+          }
+        ],
+        "fairOdds": {
+          "win": 5.82,
+          "draw": 4.09,
+          "loss": 1.71
+        }
+      }
+    },
+    {
+      "id": "760476",
+      "kickoffUtc": "2026-06-27T03:00:00Z",
+      "beijingDate": "2026-06-27",
+      "beijingTime": "11:00",
+      "weekday": "周六",
+      "group": "G",
+      "venue": "Lumen Field",
+      "home": {
+        "name": "Egypt",
+        "zh": "埃及",
+        "abbr": "EGY",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png"
+      },
+      "away": {
+        "name": "Iran",
+        "zh": "伊朗",
+        "abbr": "IRN",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 2.3,
+        "drawOdds": 3.05,
+        "lossOdds": 3.65,
+        "margin": 0.0366,
+        "totalLine": 1.5,
+        "overOdds": 1.53,
+        "underOdds": 2.5
+      },
+      "prediction": {
+        "win": 0.4193,
+        "draw": 0.3159,
+        "loss": 0.2648,
+        "homeXg": 1.2,
+        "awayXg": 0.9,
+        "totalXg": 2.1,
+        "over25": 0.351,
+        "btts": 0.4257,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.1428,
+            "fairOdds": 7.0
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1363,
+            "fairOdds": 7.34
+          },
+          {
+            "score": "0-0",
+            "probability": 0.1327,
+            "fairOdds": 7.53
+          },
+          {
+            "score": "0-1",
+            "probability": 0.0994,
+            "fairOdds": 10.06
+          },
+          {
+            "score": "2-0",
+            "probability": 0.0883,
+            "fairOdds": 11.32
+          }
+        ],
+        "fairOdds": {
+          "win": 2.38,
+          "draw": 3.17,
+          "loss": 3.78
+        }
+      }
+    },
+    {
+      "id": "760477",
+      "kickoffUtc": "2026-06-27T03:00:00Z",
+      "beijingDate": "2026-06-27",
+      "beijingTime": "11:00",
+      "weekday": "周六",
+      "group": "G",
+      "venue": "BC Place",
+      "home": {
+        "name": "New Zealand",
+        "zh": "新西兰",
+        "abbr": "NZL",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png"
+      },
+      "away": {
+        "name": "Belgium",
+        "zh": "比利时",
+        "abbr": "BEL",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 10.0,
+        "drawOdds": 6.0,
+        "lossOdds": 1.29,
+        "margin": 0.0394,
+        "totalLine": 2.5,
+        "overOdds": 1.67,
+        "underOdds": 2.2
+      },
+      "prediction": {
+        "win": 0.0817,
+        "draw": 0.176,
+        "loss": 0.7424,
+        "homeXg": 0.66,
+        "awayXg": 2.32,
+        "totalXg": 2.97,
+        "over25": 0.5712,
+        "btts": 0.4395,
+        "pick": "负",
+        "cover": "负",
+        "confidence": "强",
+        "topScore": "0-2",
+        "topScores": [
+          {
+            "score": "0-2",
+            "probability": 0.1374,
+            "fairOdds": 7.28
+          },
+          {
+            "score": "0-1",
+            "probability": 0.1122,
+            "fairOdds": 8.91
+          },
+          {
+            "score": "0-3",
+            "probability": 0.1062,
+            "fairOdds": 9.41
+          },
+          {
+            "score": "1-2",
+            "probability": 0.09,
+            "fairOdds": 11.11
+          },
+          {
+            "score": "1-1",
+            "probability": 0.0838,
+            "fairOdds": 11.94
+          }
+        ],
+        "fairOdds": {
+          "win": 12.25,
+          "draw": 5.68,
+          "loss": 1.35
+        }
+      }
+    },
+    {
+      "id": "760480",
+      "kickoffUtc": "2026-06-27T21:00:00Z",
+      "beijingDate": "2026-06-28",
+      "beijingTime": "05:00",
+      "weekday": "周日",
+      "group": "L",
+      "venue": "Lincoln Financial Field",
+      "home": {
+        "name": "Croatia",
+        "zh": "克罗地亚",
+        "abbr": "CRO",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png"
+      },
+      "away": {
+        "name": "Ghana",
+        "zh": "加纳",
+        "abbr": "GHA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 1.65,
+        "drawOdds": 3.95,
+        "lossOdds": 5.75,
+        "margin": 0.0349,
+        "totalLine": 2.5,
+        "overOdds": 2.05,
+        "underOdds": 1.77
+      },
+      "prediction": {
+        "win": 0.5857,
+        "draw": 0.2522,
+        "loss": 0.1621,
+        "homeXg": 1.73,
+        "awayXg": 0.8,
+        "totalXg": 2.53,
+        "over25": 0.4645,
+        "btts": 0.4628,
+        "pick": "胜",
+        "cover": "胜/平",
+        "confidence": "中",
+        "topScore": "1-0",
+        "topScores": [
+          {
+            "score": "1-0",
+            "probability": 0.1286,
+            "fairOdds": 7.77
+          },
+          {
+            "score": "1-1",
+            "probability": 0.1191,
+            "fairOdds": 8.39
+          },
+          {
+            "score": "2-0",
+            "probability": 0.1189,
+            "fairOdds": 8.41
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0954,
+            "fairOdds": 10.48
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0883,
+            "fairOdds": 11.33
+          }
+        ],
+        "fairOdds": {
+          "win": 1.71,
+          "draw": 3.97,
+          "loss": 6.17
+        }
+      }
+    },
+    {
+      "id": "760485",
+      "kickoffUtc": "2026-06-27T21:00:00Z",
+      "beijingDate": "2026-06-28",
+      "beijingTime": "05:00",
+      "weekday": "周日",
+      "group": "L",
+      "venue": "MetLife Stadium",
+      "home": {
+        "name": "Panama",
+        "zh": "巴拿马",
+        "abbr": "PAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png"
+      },
+      "away": {
+        "name": "England",
+        "zh": "英格兰",
+        "abbr": "ENG",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 8.5,
+        "drawOdds": 6.5,
+        "lossOdds": 1.29,
+        "margin": 0.0442,
+        "totalLine": 2.5,
+        "overOdds": 1.65,
+        "underOdds": 2.25
+      },
+      "prediction": {
+        "win": 0.0855,
+        "draw": 0.1767,
+        "loss": 0.7378,
+        "homeXg": 0.69,
+        "awayXg": 2.33,
+        "totalXg": 3.02,
+        "over25": 0.5813,
+        "btts": 0.4541,
+        "pick": "负",
+        "cover": "负",
+        "confidence": "强",
+        "topScore": "0-2",
+        "topScores": [
+          {
+            "score": "0-2",
+            "probability": 0.133,
+            "fairOdds": 7.52
+          },
+          {
+            "score": "0-1",
+            "probability": 0.1077,
+            "fairOdds": 9.28
+          },
+          {
+            "score": "0-3",
+            "probability": 0.1036,
+            "fairOdds": 9.66
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0911,
+            "fairOdds": 10.97
+          },
+          {
+            "score": "1-1",
+            "probability": 0.0843,
+            "fairOdds": 11.86
+          }
+        ],
+        "fairOdds": {
+          "win": 11.69,
+          "draw": 5.66,
+          "loss": 1.36
+        }
+      }
+    },
+    {
+      "id": "760481",
+      "kickoffUtc": "2026-06-27T23:30:00Z",
+      "beijingDate": "2026-06-28",
+      "beijingTime": "07:30",
+      "weekday": "周日",
+      "group": "K",
+      "venue": "Hard Rock Stadium",
+      "home": {
+        "name": "Colombia",
+        "zh": "哥伦比亚",
+        "abbr": "COL",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png"
+      },
+      "away": {
+        "name": "Portugal",
+        "zh": "葡萄牙",
+        "abbr": "POR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 3.5,
+        "drawOdds": 3.35,
+        "lossOdds": 2.2,
+        "margin": 0.0388,
+        "totalLine": 2.5,
+        "overOdds": 2.1,
+        "underOdds": 1.74
+      },
+      "prediction": {
+        "win": 0.2755,
+        "draw": 0.2862,
+        "loss": 0.4383,
+        "homeXg": 1.07,
+        "awayXg": 1.41,
+        "totalXg": 2.49,
+        "over25": 0.453,
+        "btts": 0.5081,
+        "pick": "负",
+        "cover": "负/平",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.1362,
+            "fairOdds": 7.34
+          },
+          {
+            "score": "0-1",
+            "probability": 0.1075,
+            "fairOdds": 9.3
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0932,
+            "fairOdds": 10.73
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0892,
+            "fairOdds": 11.21
+          },
+          {
+            "score": "0-2",
+            "probability": 0.0832,
+            "fairOdds": 12.02
+          }
+        ],
+        "fairOdds": {
+          "win": 3.63,
+          "draw": 3.49,
+          "loss": 2.28
+        }
+      }
+    },
+    {
+      "id": "760482",
+      "kickoffUtc": "2026-06-27T23:30:00Z",
+      "beijingDate": "2026-06-28",
+      "beijingTime": "07:30",
+      "weekday": "周日",
+      "group": "K",
+      "venue": "Mercedes-Benz Stadium",
+      "home": {
+        "name": "Congo DR",
+        "zh": "民主刚果",
+        "abbr": "COD",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png"
+      },
+      "away": {
+        "name": "Uzbekistan",
+        "zh": "乌兹别克斯坦",
+        "abbr": "UZB",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 2.35,
+        "drawOdds": 3.35,
+        "lossOdds": 3.15,
+        "margin": 0.0415,
+        "totalLine": 2.5,
+        "overOdds": 2.25,
+        "underOdds": 1.65
+      },
+      "prediction": {
+        "win": 0.4038,
+        "draw": 0.2968,
+        "loss": 0.2994,
+        "homeXg": 1.3,
+        "awayXg": 1.08,
+        "totalXg": 2.38,
+        "over25": 0.4251,
+        "btts": 0.491,
+        "pick": "胜",
+        "cover": "胜/负",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.1404,
+            "fairOdds": 7.12
+          },
+          {
+            "score": "1-0",
+            "probability": 0.1097,
+            "fairOdds": 9.12
+          },
+          {
+            "score": "0-0",
+            "probability": 0.1029,
+            "fairOdds": 9.71
+          },
+          {
+            "score": "0-1",
+            "probability": 0.0898,
+            "fairOdds": 11.14
+          },
+          {
+            "score": "2-1",
+            "probability": 0.0843,
+            "fairOdds": 11.86
+          }
+        ],
+        "fairOdds": {
+          "win": 2.48,
+          "draw": 3.37,
+          "loss": 3.34
+        }
+      }
+    },
+    {
+      "id": "760484",
+      "kickoffUtc": "2026-06-28T02:00:00Z",
+      "beijingDate": "2026-06-28",
+      "beijingTime": "10:00",
+      "weekday": "周日",
+      "group": "J",
+      "venue": "GEHA Field at Arrowhead Stadium",
+      "home": {
+        "name": "Algeria",
+        "zh": "阿尔及利亚",
+        "abbr": "ALG",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png"
+      },
+      "away": {
+        "name": "Austria",
+        "zh": "奥地利",
+        "abbr": "AUT",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 3.75,
+        "drawOdds": 3.2,
+        "lossOdds": 2.15,
+        "margin": 0.0443,
+        "totalLine": 2.5,
+        "overOdds": 2.1,
+        "underOdds": 1.74
+      },
+      "prediction": {
+        "win": 0.2635,
+        "draw": 0.2853,
+        "loss": 0.4513,
+        "homeXg": 1.04,
+        "awayXg": 1.43,
+        "totalXg": 2.47,
+        "over25": 0.4498,
+        "btts": 0.5026,
+        "pick": "负",
+        "cover": "负/平",
+        "confidence": "谨慎",
+        "topScore": "1-1",
+        "topScores": [
+          {
+            "score": "1-1",
+            "probability": 0.1357,
+            "fairOdds": 7.37
+          },
+          {
+            "score": "0-1",
+            "probability": 0.1107,
+            "fairOdds": 9.03
+          },
+          {
+            "score": "0-0",
+            "probability": 0.0942,
+            "fairOdds": 10.61
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0901,
+            "fairOdds": 11.1
+          },
+          {
+            "score": "0-2",
+            "probability": 0.0867,
+            "fairOdds": 11.54
+          }
+        ],
+        "fairOdds": {
+          "win": 3.8,
+          "draw": 3.51,
+          "loss": 2.22
+        }
+      }
+    },
+    {
+      "id": "760483",
+      "kickoffUtc": "2026-06-28T02:00:00Z",
+      "beijingDate": "2026-06-28",
+      "beijingTime": "10:00",
+      "weekday": "周日",
+      "group": "J",
+      "venue": "AT&T Stadium",
+      "home": {
+        "name": "Jordan",
+        "zh": "约旦",
+        "abbr": "JOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png"
+      },
+      "away": {
+        "name": "Argentina",
+        "zh": "阿根廷",
+        "abbr": "ARG",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png"
+      },
+      "market": {
+        "source": "公开市场",
+        "winOdds": 15.0,
+        "drawOdds": 7.5,
+        "lossOdds": 1.19,
+        "margin": 0.04,
+        "totalLine": 2.5,
+        "overOdds": 1.57,
+        "underOdds": 2.4
+      },
+      "prediction": {
+        "win": 0.0517,
+        "draw": 0.1401,
+        "loss": 0.8081,
+        "homeXg": 0.54,
+        "awayXg": 2.59,
+        "totalXg": 3.13,
+        "over25": 0.6053,
+        "btts": 0.3921,
+        "pick": "负",
+        "cover": "负",
+        "confidence": "强",
+        "topScore": "0-2",
+        "topScores": [
+          {
+            "score": "0-2",
+            "probability": 0.1464,
+            "fairOdds": 6.83
+          },
+          {
+            "score": "0-3",
+            "probability": 0.1262,
+            "fairOdds": 7.92
+          },
+          {
+            "score": "0-1",
+            "probability": 0.1082,
+            "fairOdds": 9.24
+          },
+          {
+            "score": "0-4",
+            "probability": 0.0817,
+            "fairOdds": 12.25
+          },
+          {
+            "score": "1-2",
+            "probability": 0.0794,
+            "fairOdds": 12.59
+          }
+        ],
+        "fairOdds": {
+          "win": 19.33,
+          "draw": 7.14,
+          "loss": 1.24
+        }
+      }
+    }
+  ]
+}
