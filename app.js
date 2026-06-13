@@ -1,5 +1,5 @@
-const data = window.WORLD_CUP_DATA;
-const matches = data?.matches ?? [];
+let data = window.WORLD_CUP_DATA ?? { matches: [] };
+let matches = data.matches ?? [];
 
 const elements = {
   generatedAt: document.querySelector("#generatedAt"),
@@ -35,7 +35,11 @@ function teamName(team) {
 }
 
 function scorePick(match, index = 0) {
-  return match.prediction.topScores[index] ?? match.prediction.topScores[0];
+  return (
+    match.prediction.recommendedScores?.[index] ??
+    match.prediction.topScores[index] ??
+    match.prediction.topScores[0]
+  );
 }
 
 function populateFilters() {
@@ -299,6 +303,21 @@ document.addEventListener("keydown", (event) => {
   if (match) openDialog(match);
 });
 
-populateFilters();
-renderSummary();
-renderMatches();
+async function bootstrap() {
+  if (location.protocol.startsWith("http")) {
+    try {
+      const response = await fetch(`predictions.json?v=${Date.now()}`, { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      data = await response.json();
+      matches = data.matches ?? [];
+    } catch (error) {
+      console.warn("使用页面内置预测数据", error);
+    }
+  }
+
+  populateFilters();
+  renderSummary();
+  renderMatches();
+}
+
+bootstrap();

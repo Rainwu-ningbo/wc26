@@ -2,7 +2,8 @@ name: Hourly prediction refresh
 
 on:
   schedule:
-    - cron: "17 * * * *"
+    # Run twice per hour so a delayed or skipped GitHub schedule still refreshes hourly.
+    - cron: "17,47 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -27,7 +28,13 @@ jobs:
           python-version: "3.12"
 
       - name: Refresh predictions
-        run: python refresh_predictions.py
+        run: |
+          for attempt in 1 2 3; do
+            python refresh_predictions.py && exit 0
+            echo "Refresh attempt ${attempt} failed; retrying..."
+            sleep 30
+          done
+          exit 1
 
       - name: Publish changed predictions
         run: |

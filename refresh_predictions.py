@@ -140,6 +140,15 @@ def round_probability(value: float) -> float:
     return round(value, 4)
 
 
+def score_matches_pick(score: str, pick_index: int) -> bool:
+    home_goals, away_goals = (int(value) for value in score.split("-", 1))
+    if pick_index == 0:
+        return home_goals > away_goals
+    if pick_index == 1:
+        return home_goals == away_goals
+    return home_goals < away_goals
+
+
 def build_match(event: dict) -> dict:
     competition = event["competitions"][0]
     competitors = {item["homeAway"]: item for item in competition["competitors"]}
@@ -182,6 +191,9 @@ def build_match(event: dict) -> dict:
     )
     labels = ("胜", "平", "负")
     pick_index = max(range(3), key=lambda index: probabilities[index])
+    recommended_scores = [
+        score for score in prediction.top_scores if score_matches_pick(score.score, pick_index)
+    ][:2]
     group_note = competition.get("altGameNote", "")
     group = group_note.rsplit(" ", 1)[-1] if group_note else "?"
 
@@ -236,6 +248,14 @@ def build_match(event: dict) -> dict:
                 }
                 for score in prediction.top_scores
             ],
+            "recommendedScores": [
+                {
+                    "score": score.score,
+                    "probability": round_probability(score.probability),
+                    "fairOdds": round(score.fair_odds, 2),
+                }
+                for score in recommended_scores
+            ],
             "fairOdds": {
                 "win": round(1.0 / prediction.model_win_prob, 2),
                 "draw": round(1.0 / prediction.model_draw_prob, 2),
@@ -251,7 +271,7 @@ def main() -> int:
         event
         for event in data.get("events", [])
         if event.get("season", {}).get("slug") == "group-stage"
-        and not event["status"]["type"]["completed"]
+        and event["status"]["type"].get("state") == "pre"
     ]
     events.sort(key=lambda event: event["date"])
     matches = [build_match(event) for event in events]
