@@ -34,6 +34,10 @@ function teamName(team) {
   return escapeHtml(team.zh || team.name);
 }
 
+function scorePick(match, index = 0) {
+  return match.prediction.topScores[index] ?? match.prediction.topScores[0];
+}
+
 function populateFilters() {
   const dates = [...new Set(matches.map((match) => match.beijingDate))];
   const groups = [...new Set(matches.map((match) => match.group))].sort();
@@ -85,7 +89,7 @@ function renderSummary() {
           <span class="signal-rank">0${index + 1}</span>
           <div>
             <strong>${teamName(match.home)} vs ${teamName(match.away)}</strong>
-            <span>${match.beijingDate.slice(5)} ${match.beijingTime} · 首选 ${match.prediction.pick} · ${match.prediction.topScore}</span>
+            <span>${match.beijingDate.slice(5)} ${match.beijingTime} · 首选 ${match.prediction.pick} · ${scorePick(match, 0).score} / ${scorePick(match, 1).score}</span>
           </div>
           <b class="signal-probability">${percent(maxProbability)}</b>
         </article>
@@ -104,6 +108,8 @@ function probabilityBar(label, value) {
 }
 
 function cardTemplate(match) {
+  const mainScore = scorePick(match, 0);
+  const backupScore = scorePick(match, 1);
   return `
     <article class="match-card" data-id="${match.id}" tabindex="0">
       <div class="card-top">
@@ -117,8 +123,16 @@ function cardTemplate(match) {
           <small>${escapeHtml(match.home.abbr)}</small>
         </div>
         <div class="score-pick">
-          <strong>${escapeHtml(match.prediction.topScore)}</strong>
-          <span>最高频比分</span>
+          <div class="score-choice score-choice-main">
+            <span>主推</span>
+            <strong>${escapeHtml(mainScore.score)}</strong>
+            <small>${percent(mainScore.probability, 1)}</small>
+          </div>
+          <div class="score-choice score-choice-backup">
+            <span>备选</span>
+            <strong>${escapeHtml(backupScore.score)}</strong>
+            <small>${percent(backupScore.probability, 1)}</small>
+          </div>
         </div>
         <div class="team">
           <img src="${escapeHtml(match.away.logo)}" alt="">
@@ -181,6 +195,8 @@ function metricLine(label, value) {
 }
 
 function openDialog(match) {
+  const mainScore = scorePick(match, 0);
+  const backupScore = scorePick(match, 1);
   elements.dialogContent.innerHTML = `
     <div class="dialog-inner">
       <h3 class="dialog-title">${teamName(match.home)} vs ${teamName(match.away)}</h3>
@@ -191,8 +207,16 @@ function openDialog(match) {
           <strong>${teamName(match.home)}</strong>
         </div>
         <div class="dialog-score">
-          <strong>${escapeHtml(match.prediction.topScore)}</strong>
-          <span>最高频比分 · 首选${match.prediction.pick}</span>
+          <div>
+            <span>主推比分</span>
+            <strong>${escapeHtml(mainScore.score)}</strong>
+            <small>${percent(mainScore.probability, 1)}</small>
+          </div>
+          <div class="dialog-score-backup">
+            <span>备选比分</span>
+            <strong>${escapeHtml(backupScore.score)}</strong>
+            <small>${percent(backupScore.probability, 1)}</small>
+          </div>
         </div>
         <div class="dialog-team">
           <img src="${escapeHtml(match.away.logo)}" alt="">
@@ -230,7 +254,7 @@ function openDialog(match) {
           ${metricLine("首选赛果", match.prediction.pick)}
           ${metricLine("信心等级", match.prediction.confidence)}
           ${metricLine("预测总进球", match.prediction.totalXg)}
-          ${metricLine("最高频比分", match.prediction.topScore)}
+          ${metricLine("主推 / 备选比分", `${mainScore.score} / ${backupScore.score}`)}
           <p class="source-note">赔率来自 ${escapeHtml(match.market.source)} 的公开市场参考线，经过去水并与大小球联合拟合。并非中国体彩实时出票赔率。</p>
         </section>
       </div>

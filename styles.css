@@ -548,20 +548,45 @@ footer {
 }
 
 .score-pick {
+  display: grid;
+  gap: 5px;
+  min-width: 88px;
   text-align: center;
 }
 
-.score-pick strong {
-  display: block;
+.score-choice {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.score-choice strong {
   color: var(--lime);
   font-family: Georgia, serif;
-  font-size: 28px;
+  font-size: 20px;
   letter-spacing: -0.08em;
 }
 
-.score-pick span {
+.score-choice span,
+.score-choice small {
   color: var(--muted);
   font-size: 8px;
+}
+
+.score-choice-backup {
+  padding-top: 5px;
+  border-top: 1px solid var(--line);
+}
+
+.score-choice-backup strong {
+  color: var(--ink);
+  font-size: 14px;
+}
+
+.score-choice-backup small {
+  color: #718078;
 }
 
 .probability-row {
@@ -677,8 +702,12 @@ footer {
   margin-bottom: 12px;
 }
 
-.compact .score-pick strong {
-  font-size: 21px;
+.compact .score-choice strong {
+  font-size: 16px;
+}
+
+.compact .score-choice-backup strong {
+  font-size: 12px;
 }
 
 .compact .probability-row {
@@ -767,6 +796,11 @@ dialog::backdrop {
   margin-top: 7px;
 }
 
+.dialog-score {
+  display: grid;
+  gap: 8px;
+}
+
 .dialog-score strong {
   display: block;
   color: var(--lime);
@@ -774,11 +808,22 @@ dialog::backdrop {
   font-size: 38px;
 }
 
-.dialog-score span {
+.dialog-score span,
+.dialog-score small {
+  display: block;
   color: var(--muted);
   font-size: 9px;
 }
 
+.dialog-score-backup {
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
+}
+
+.dialog-score-backup strong {
+  color: var(--ink);
+  font-size: 22px;
+}
 .dialog-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
