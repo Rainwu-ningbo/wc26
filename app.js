@@ -43,9 +43,13 @@ function scorePick(match, index = 0) {
 }
 
 function populateFilters() {
+  const selectedDate = elements.dateFilter.value;
+  const selectedGroup = elements.groupFilter.value;
   const dates = [...new Set(matches.map((match) => match.beijingDate))];
   const groups = [...new Set(matches.map((match) => match.group))].sort();
 
+  elements.dateFilter.innerHTML = '<option value="all">全部日期</option>';
+  elements.groupFilter.innerHTML = '<option value="all">全部小组</option>';
   dates.forEach((date) => {
     const match = matches.find((item) => item.beijingDate === date);
     elements.dateFilter.insertAdjacentHTML(
@@ -59,6 +63,8 @@ function populateFilters() {
       `<option value="${group}">${group} 组</option>`,
     );
   });
+  elements.dateFilter.value = dates.includes(selectedDate) ? selectedDate : "all";
+  elements.groupFilter.value = groups.includes(selectedGroup) ? selectedGroup : "all";
 }
 
 function renderSummary() {
@@ -303,21 +309,39 @@ document.addEventListener("keydown", (event) => {
   if (match) openDialog(match);
 });
 
+// Render embedded data immediately, then replace it with live public-market data.
 async function bootstrap() {
-  if (location.protocol.startsWith("http")) {
-    try {
-      const response = await fetch(`predictions.json?v=${Date.now()}`, { cache: "no-store" });
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      data = await response.json();
-      matches = data.matches ?? [];
-    } catch (error) {
-      console.warn("使用页面内置预测数据", error);
-    }
-  }
-
   populateFilters();
   renderSummary();
   renderMatches();
+
+  const refresh = async () => {
+    let fallback = data;
+    if (location.protocol.startsWith("http")) {
+      try {
+        const response = await fetch(`predictions.json?v=${Date.now()}`, { cache: "no-store" });
+        if (response.ok) fallback = await response.json();
+      } catch (error) {
+        console.warn("静态预测数据读取失败", error);
+      }
+    }
+
+    try {
+      data = window.refreshWorldCupData
+        ? await window.refreshWorldCupData(fallback)
+        : fallback;
+    } catch (error) {
+      console.warn("实时市场刷新失败，使用最近预测数据", error);
+      data = fallback;
+    }
+    matches = data.matches ?? [];
+    populateFilters();
+    renderSummary();
+    renderMatches();
+  };
+
+  await refresh();
+  window.setInterval(refresh, 10 * 60 * 1000);
 }
 
 bootstrap();
