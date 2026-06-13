@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  models: read
 
 concurrency:
   group: hourly-prediction-refresh
@@ -35,6 +36,12 @@ jobs:
             sleep 30
           done
           exit 1
+
+      - name: Generate GPT predictions
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GPT_MODEL: openai/gpt-4.1
+        run: python gpt_predict.py
 
       - name: Publish changed predictions
         run: |

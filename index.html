@@ -28,9 +28,9 @@
   <main>
     <section class="hero">
       <div class="hero-copy">
-        <span class="eyebrow">市场去水概率 × 比分模型</span>
+        <span class="eyebrow">GPT 综合判断 × 最新公开赔率</span>
         <h2>剩余小组赛，<br><em>一页看完。</em></h2>
-        <p>以公开市场胜平负和大小球为输入，统一反推每场比赛的赛果概率、预期进球与高频比分。</p>
+        <p>由 OpenAI GPT 综合最新胜平负赔率、大小球与市场预期进球，给出每场比赛的赛果判断、主推比分与风险提示。</p>
       </div>
       <div class="hero-stats">
         <article>
@@ -123,12 +123,11 @@
   </dialog>
 
   <footer>
-    <p>赛程与市场参考：ESPN / DraftKings · 模型：去水胜平负 + Dixon-Coles 泊松比分分布</p>
+    <p>赛程与市场参考：ESPN / DraftKings · 预测引擎：OpenAI GPT-4.1 via GitHub Models</p>
     <p>世界杯淘汰赛不在本页面内；所有比赛时间均为北京时间。</p>
   </footer>
 
   <script src="predictions.js"></script>
-  <script src="live-data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

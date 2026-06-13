@@ -235,11 +235,10 @@ function openDialog(match) {
       </div>
       <div class="dialog-grid">
         <section class="detail-panel">
-          <h4>MODEL / 模型概率</h4>
+          <h4>GPT / GPT 预测</h4>
           ${metricLine("胜 / 平 / 负", `${percent(match.prediction.win)} / ${percent(match.prediction.draw)} / ${percent(match.prediction.loss)}`)}
-          ${metricLine("预期进球", `${match.prediction.homeXg} - ${match.prediction.awayXg}`)}
-          ${metricLine("大于 2.5 球", percent(match.prediction.over25))}
-          ${metricLine("双方进球", percent(match.prediction.btts))}
+          ${metricLine("GPT 判断", match.prediction.analysis || "暂无简评")}
+          ${metricLine("主要风险", match.prediction.risk || "暂无风险提示")}
           ${metricLine("复式参考", match.prediction.cover)}
         </section>
         <section class="detail-panel">
@@ -251,7 +250,7 @@ function openDialog(match) {
           ${metricLine("模型公平赔率", `${match.prediction.fairOdds.win} / ${match.prediction.fairOdds.draw} / ${match.prediction.fairOdds.loss}`)}
         </section>
         <section class="detail-panel">
-          <h4>SCORELINE / 高频比分</h4>
+          <h4>SCORELINE / GPT 比分</h4>
           ${match.prediction.topScores
             .map(
               (item) =>
@@ -263,9 +262,10 @@ function openDialog(match) {
           <h4>READ / 快速判断</h4>
           ${metricLine("首选赛果", match.prediction.pick)}
           ${metricLine("信心等级", match.prediction.confidence)}
-          ${metricLine("预测总进球", match.prediction.totalXg)}
+          ${metricLine("市场预期进球", `${match.prediction.homeXg} - ${match.prediction.awayXg}`)}
+          ${metricLine("市场大于 2.5 球", percent(match.prediction.over25))}
           ${metricLine("主推 / 备选比分", `${mainScore.score} / ${backupScore.score}`)}
-          <p class="source-note">赔率来自 ${escapeHtml(match.market.source)} 的公开市场参考线，经过去水并与大小球联合拟合。并非中国体彩实时出票赔率。</p>
+          <p class="source-note">GPT 基于 ${escapeHtml(match.market.source)} 公开市场参考线与市场派生指标作出判断。并非中国体彩实时出票赔率。</p>
         </section>
       </div>
     </div>
@@ -316,28 +316,19 @@ async function bootstrap() {
   renderMatches();
 
   const refresh = async () => {
-    let fallback = data;
     if (location.protocol.startsWith("http")) {
       try {
         const response = await fetch(`predictions.json?v=${Date.now()}`, { cache: "no-store" });
-        if (response.ok) fallback = await response.json();
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        data = await response.json();
+        matches = data.matches ?? [];
+        populateFilters();
+        renderSummary();
+        renderMatches();
       } catch (error) {
-        console.warn("静态预测数据读取失败", error);
+        console.warn("GPT 预测数据读取失败，保留最近数据", error);
       }
     }
-
-    try {
-      data = window.refreshWorldCupData
-        ? await window.refreshWorldCupData(fallback)
-        : fallback;
-    } catch (error) {
-      console.warn("实时市场刷新失败，使用最近预测数据", error);
-      data = fallback;
-    }
-    matches = data.matches ?? [];
-    populateFilters();
-    renderSummary();
-    renderMatches();
   };
 
   await refresh();
