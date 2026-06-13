@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2026 世界杯剩余小组赛胜平负与比分概率预测">
+  <title>世界杯小组赛预测台</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header">
+    <div class="brand">
+      <div class="brand-mark">26</div>
+      <div>
+        <p>WORLD CUP · GROUP STAGE</p>
+        <h1>世界杯预测台</h1>
+      </div>
+    </div>
+    <div class="header-meta">
+      <span class="live-dot"></span>
+      <span id="generatedAt">载入预测中</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">市场去水概率 × 比分模型</span>
+        <h2>剩余小组赛，<br><em>一页看完。</em></h2>
+        <p>以公开市场胜平负和大小球为输入，统一反推每场比赛的赛果概率、预期进球与高频比分。</p>
+      </div>
+      <div class="hero-stats">
+        <article>
+          <span>剩余比赛</span>
+          <strong id="matchCount">--</strong>
+          <small>GROUP MATCHES</small>
+        </article>
+        <article>
+          <span>强信号</span>
+          <strong id="strongCount">--</strong>
+          <small>TOP PROB ≥ 72%</small>
+        </article>
+        <article>
+          <span>平均市场水位</span>
+          <strong id="avgMargin">--</strong>
+          <small>OVERROUND</small>
+        </article>
+      </div>
+    </section>
+
+    <section class="signal-strip" id="signalStrip"></section>
+
+    <section class="workspace">
+      <aside class="filters">
+        <div class="filter-heading">
+          <span>筛选比赛</span>
+          <button id="resetFilters" type="button">重置</button>
+        </div>
+        <label>
+          <span>搜索球队</span>
+          <input id="searchInput" type="search" placeholder="例如：巴西、瑞士">
+        </label>
+        <label>
+          <span>比赛日期</span>
+          <select id="dateFilter">
+            <option value="all">全部日期</option>
+          </select>
+        </label>
+        <label>
+          <span>小组</span>
+          <select id="groupFilter">
+            <option value="all">全部小组</option>
+          </select>
+        </label>
+        <label>
+          <span>首选赛果</span>
+          <select id="pickFilter">
+            <option value="all">全部赛果</option>
+            <option value="胜">主胜</option>
+            <option value="平">平局</option>
+            <option value="负">客胜</option>
+          </select>
+        </label>
+        <label>
+          <span>信心等级</span>
+          <select id="confidenceFilter">
+            <option value="all">全部等级</option>
+            <option value="强">强</option>
+            <option value="中">中</option>
+            <option value="谨慎">谨慎</option>
+          </select>
+        </label>
+        <div class="legend">
+          <p><i class="legend-market"></i>市场参考赔率</p>
+          <p><i class="legend-model"></i>模型去水概率</p>
+        </div>
+        <p class="disclaimer">预测仅用于概率分析，不构成投注建议。市场赔率并非中国体彩实时出票赔率。</p>
+      </aside>
+
+      <section class="match-area">
+        <div class="list-toolbar">
+          <div>
+            <span id="resultCount">--</span>
+            <small>场符合当前筛选</small>
+          </div>
+          <button id="compactToggle" type="button">紧凑视图</button>
+        </div>
+        <div id="matchList" class="match-list"></div>
+        <div id="emptyState" class="empty-state" hidden>
+          <strong>没有找到比赛</strong>
+          <span>换一个日期、小组或球队试试。</span>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <dialog id="matchDialog">
+    <button class="dialog-close" id="dialogClose" type="button" aria-label="关闭">×</button>
+    <div id="dialogContent"></div>
+  </dialog>
+
+  <footer>
+    <p>赛程与市场参考：ESPN / DraftKings · 模型：去水胜平负 + Dixon-Coles 泊松比分分布</p>
+    <p>世界杯淘汰赛不在本页面内；所有比赛时间均为北京时间。</p>
+  </footer>
+
+  <script src="predictions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
