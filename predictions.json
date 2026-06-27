@@ -1,164 +1,8 @@
 {
-  "generatedAt": "2026-06-28T06:45:58+08:00",
+  "generatedAt": "2026-06-28T07:44:59+08:00",
   "timezone": "Asia/Shanghai",
   "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260611-20260628&limit=100",
   "matches": [
-    {
-      "id": "760481",
-      "kickoffUtc": "2026-06-27T23:30:00Z",
-      "beijingDate": "2026-06-28",
-      "beijingTime": "07:30",
-      "weekday": "周日",
-      "group": "K",
-      "venue": "Hard Rock Stadium",
-      "home": {
-        "name": "Colombia",
-        "zh": "哥伦比亚",
-        "abbr": "COL",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png"
-      },
-      "away": {
-        "name": "Portugal",
-        "zh": "葡萄牙",
-        "abbr": "POR",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png"
-      },
-      "market": {
-        "source": "公开市场",
-        "winOdds": 3.95,
-        "drawOdds": 3.95,
-        "lossOdds": 1.83,
-        "margin": 0.0518,
-        "totalLine": 2.5,
-        "overOdds": 1.71,
-        "underOdds": 2.15
-      },
-      "prediction": {
-        "win": 0.24,
-        "draw": 0.25,
-        "loss": 0.51,
-        "homeXg": 1.14,
-        "awayXg": 1.78,
-        "totalXg": 2.92,
-        "over25": 0.5581,
-        "btts": 0.5736,
-        "pick": "负",
-        "cover": "负/平",
-        "confidence": "中",
-        "topScore": "1-2",
-        "topScores": [
-          {
-            "score": "1-2",
-            "probability": 0.11,
-            "fairOdds": 9.09
-          },
-          {
-            "score": "0-2",
-            "probability": 0.07,
-            "fairOdds": 14.29
-          }
-        ],
-        "recommendedScores": [
-          {
-            "score": "1-2",
-            "probability": 0.11,
-            "fairOdds": 9.09
-          },
-          {
-            "score": "0-2",
-            "probability": 0.07,
-            "fairOdds": 14.29
-          }
-        ],
-        "fairOdds": {
-          "win": 4.17,
-          "draw": 4.0,
-          "loss": 1.96
-        },
-        "analysis": "葡萄牙进攻机会多于哥伦比亚，赔率反映优势明显。",
-        "risk": "哥伦比亚防守表现和临场不确定性带来风险。",
-        "generatedBy": "GPT",
-        "modelName": "openai/gpt-4.1"
-      }
-    },
-    {
-      "id": "760482",
-      "kickoffUtc": "2026-06-27T23:30:00Z",
-      "beijingDate": "2026-06-28",
-      "beijingTime": "07:30",
-      "weekday": "周日",
-      "group": "K",
-      "venue": "Mercedes-Benz Stadium",
-      "home": {
-        "name": "Congo DR",
-        "zh": "民主刚果",
-        "abbr": "COD",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png"
-      },
-      "away": {
-        "name": "Uzbekistan",
-        "zh": "乌兹别克斯坦",
-        "abbr": "UZB",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png"
-      },
-      "market": {
-        "source": "公开市场",
-        "winOdds": 1.67,
-        "drawOdds": 3.9,
-        "lossOdds": 5.25,
-        "margin": 0.0469,
-        "totalLine": 2.5,
-        "overOdds": 2.15,
-        "underOdds": 1.69
-      },
-      "prediction": {
-        "win": 0.58,
-        "draw": 0.25,
-        "loss": 0.17,
-        "homeXg": 1.66,
-        "awayXg": 0.8,
-        "totalXg": 2.45,
-        "over25": 0.4439,
-        "btts": 0.4536,
-        "pick": "胜",
-        "cover": "胜/平",
-        "confidence": "中",
-        "topScore": "1-0",
-        "topScores": [
-          {
-            "score": "1-0",
-            "probability": 0.17,
-            "fairOdds": 5.88
-          },
-          {
-            "score": "2-0",
-            "probability": 0.1,
-            "fairOdds": 10.0
-          }
-        ],
-        "recommendedScores": [
-          {
-            "score": "1-0",
-            "probability": 0.17,
-            "fairOdds": 5.88
-          },
-          {
-            "score": "2-0",
-            "probability": 0.1,
-            "fairOdds": 10.0
-          }
-        ],
-        "fairOdds": {
-          "win": 1.72,
-          "draw": 4.0,
-          "loss": 5.88
-        },
-        "analysis": "民主刚果进攻端更佳，对手防守压力大。",
-        "risk": "乌兹别克斯坦状态或出现爆冷可能。",
-        "generatedBy": "GPT",
-        "modelName": "openai/gpt-4.1"
-      }
-    },
     {
       "id": "760484",
       "kickoffUtc": "2026-06-28T02:00:00Z",
@@ -181,10 +25,10 @@
       },
       "market": {
         "source": "公开市场",
-        "winOdds": 3.65,
-        "drawOdds": 2.0,
-        "lossOdds": 3.75,
-        "margin": 0.0406,
+        "winOdds": 3.55,
+        "drawOdds": 2.05,
+        "lossOdds": 3.7,
+        "margin": 0.0398,
         "totalLine": 1.5,
         "overOdds": 1.74,
         "underOdds": 2.1
@@ -193,37 +37,37 @@
         "win": 0.32,
         "draw": 0.37,
         "loss": 0.31,
-        "homeXg": 0.82,
+        "homeXg": 0.83,
         "awayXg": 0.81,
-        "totalXg": 1.62,
-        "over25": 0.2231,
-        "btts": 0.3198,
+        "totalXg": 1.64,
+        "over25": 0.2277,
+        "btts": 0.3241,
         "pick": "平",
         "cover": "平/胜",
         "confidence": "谨慎",
-        "topScore": "0-0",
+        "topScore": "1-1",
         "topScores": [
-          {
-            "score": "0-0",
-            "probability": 0.19,
-            "fairOdds": 5.26
-          },
           {
             "score": "1-1",
             "probability": 0.14,
             "fairOdds": 7.14
+          },
+          {
+            "score": "0-0",
+            "probability": 0.12,
+            "fairOdds": 8.33
           }
         ],
         "recommendedScores": [
           {
-            "score": "0-0",
-            "probability": 0.19,
-            "fairOdds": 5.26
-          },
-          {
             "score": "1-1",
             "probability": 0.14,
             "fairOdds": 7.14
+          },
+          {
+            "score": "0-0",
+            "probability": 0.12,
+            "fairOdds": 8.33
           }
         ],
         "fairOdds": {
@@ -231,8 +75,8 @@
           "draw": 2.7,
           "loss": 3.23
         },
-        "analysis": "两队实力接近，进球预期偏低，平局概率高。",
-        "risk": "某方早进球打破僵局会拉高分出胜负概率。",
+        "analysis": "赔率均衡，小球预期，进球率低，平局合理。",
+        "risk": "两队进攻偶有闪光，某方早球风险较大。",
         "generatedBy": "GPT",
         "modelName": "openai/gpt-4.1"
       }
@@ -265,17 +109,17 @@
         "margin": 0.0387,
         "totalLine": 3.5,
         "overOdds": 2.35,
-        "underOdds": 1.61
+        "underOdds": 1.59
       },
       "prediction": {
         "win": 0.04,
         "draw": 0.12,
         "loss": 0.84,
-        "homeXg": 0.48,
+        "homeXg": 0.47,
         "awayXg": 2.76,
-        "totalXg": 3.24,
-        "over25": 0.6288,
-        "btts": 0.3599,
+        "totalXg": 3.23,
+        "over25": 0.6263,
+        "btts": 0.3568,
         "pick": "负",
         "cover": "负",
         "confidence": "强",
@@ -288,8 +132,8 @@
           },
           {
             "score": "0-2",
-            "probability": 0.13,
-            "fairOdds": 7.69
+            "probability": 0.12,
+            "fairOdds": 8.33
           }
         ],
         "recommendedScores": [
@@ -300,8 +144,8 @@
           },
           {
             "score": "0-2",
-            "probability": 0.13,
-            "fairOdds": 7.69
+            "probability": 0.12,
+            "fairOdds": 8.33
           }
         ],
         "fairOdds": {
@@ -309,13 +153,13 @@
           "draw": 8.33,
           "loss": 1.19
         },
-        "analysis": "阿根廷实力极大优势，竞彩赔率与期望一致。",
-        "risk": "阿根廷大幅轮换或效率不佳会降低获胜幅度。",
+        "analysis": "赔率极低且预期进球数巨大，阿根廷实力碾压。",
+        "risk": "赛程轮换或提前出线可能影响战意。",
         "generatedBy": "GPT",
         "modelName": "openai/gpt-4.1"
       }
     }
   ],
   "predictionEngine": "OpenAI gpt-4.1 via GitHub Models",
-  "gptPredictedMatches": 4
+  "gptPredictedMatches": 2
 }
