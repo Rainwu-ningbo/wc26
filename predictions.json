@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T05:44:58+08:00",
+  "generatedAt": "2026-06-28T06:45:58+08:00",
   "timezone": "Asia/Shanghai",
   "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260611-20260628&limit=100",
   "matches": [
@@ -25,58 +25,58 @@
       },
       "market": {
         "source": "公开市场",
-        "winOdds": 3.55,
-        "drawOdds": 3.8,
-        "lossOdds": 2.0,
-        "margin": 0.0448,
+        "winOdds": 3.95,
+        "drawOdds": 3.95,
+        "lossOdds": 1.83,
+        "margin": 0.0518,
         "totalLine": 2.5,
         "overOdds": 1.71,
         "underOdds": 2.15
       },
       "prediction": {
-        "win": 0.26,
-        "draw": 0.26,
-        "loss": 0.48,
-        "homeXg": 1.22,
-        "awayXg": 1.7,
+        "win": 0.24,
+        "draw": 0.25,
+        "loss": 0.51,
+        "homeXg": 1.14,
+        "awayXg": 1.78,
         "totalXg": 2.92,
-        "over25": 0.5575,
-        "btts": 0.5843,
+        "over25": 0.5581,
+        "btts": 0.5736,
         "pick": "负",
-        "cover": "负/胜",
+        "cover": "负/平",
         "confidence": "中",
         "topScore": "1-2",
         "topScores": [
           {
             "score": "1-2",
-            "probability": 0.12,
-            "fairOdds": 8.33
+            "probability": 0.11,
+            "fairOdds": 9.09
           },
           {
-            "score": "0-1",
-            "probability": 0.1,
-            "fairOdds": 10.0
+            "score": "0-2",
+            "probability": 0.07,
+            "fairOdds": 14.29
           }
         ],
         "recommendedScores": [
           {
             "score": "1-2",
-            "probability": 0.12,
-            "fairOdds": 8.33
+            "probability": 0.11,
+            "fairOdds": 9.09
           },
           {
-            "score": "0-1",
-            "probability": 0.1,
-            "fairOdds": 10.0
+            "score": "0-2",
+            "probability": 0.07,
+            "fairOdds": 14.29
           }
         ],
         "fairOdds": {
-          "win": 3.85,
-          "draw": 3.85,
-          "loss": 2.08
+          "win": 4.17,
+          "draw": 4.0,
+          "loss": 1.96
         },
-        "analysis": "葡萄牙市场支持更强，预期进球优势明显。",
-        "risk": "哥伦比亚硬度高，防守波动或出冷门。",
+        "analysis": "葡萄牙进攻机会多于哥伦比亚，赔率反映优势明显。",
+        "risk": "哥伦比亚防守表现和临场不确定性带来风险。",
         "generatedBy": "GPT",
         "modelName": "openai/gpt-4.1"
       }
@@ -103,23 +103,23 @@
       },
       "market": {
         "source": "公开市场",
-        "winOdds": 1.69,
-        "drawOdds": 3.8,
+        "winOdds": 1.67,
+        "drawOdds": 3.9,
         "lossOdds": 5.25,
-        "margin": 0.0455,
+        "margin": 0.0469,
         "totalLine": 2.5,
-        "overOdds": 2.25,
-        "underOdds": 1.65
+        "overOdds": 2.15,
+        "underOdds": 1.69
       },
       "prediction": {
-        "win": 0.56,
-        "draw": 0.27,
+        "win": 0.58,
+        "draw": 0.25,
         "loss": 0.17,
-        "homeXg": 1.61,
-        "awayXg": 0.78,
-        "totalXg": 2.38,
-        "over25": 0.4264,
-        "btts": 0.4414,
+        "homeXg": 1.66,
+        "awayXg": 0.8,
+        "totalXg": 2.45,
+        "over25": 0.4439,
+        "btts": 0.4536,
         "pick": "胜",
         "cover": "胜/平",
         "confidence": "中",
@@ -127,34 +127,34 @@
         "topScores": [
           {
             "score": "1-0",
-            "probability": 0.18,
-            "fairOdds": 5.56
+            "probability": 0.17,
+            "fairOdds": 5.88
           },
           {
             "score": "2-0",
-            "probability": 0.11,
-            "fairOdds": 9.09
+            "probability": 0.1,
+            "fairOdds": 10.0
           }
         ],
         "recommendedScores": [
           {
             "score": "1-0",
-            "probability": 0.18,
-            "fairOdds": 5.56
+            "probability": 0.17,
+            "fairOdds": 5.88
           },
           {
             "score": "2-0",
-            "probability": 0.11,
-            "fairOdds": 9.09
+            "probability": 0.1,
+            "fairOdds": 10.0
           }
         ],
         "fairOdds": {
-          "win": 1.79,
-          "draw": 3.7,
+          "win": 1.72,
+          "draw": 4.0,
           "loss": 5.88
         },
-        "analysis": "民主刚果获胜市场预期高，乌兹别克火力有限。",
-        "risk": "刚果进攻效率有隐忧，平局可能性不可低估。",
+        "analysis": "民主刚果进攻端更佳，对手防守压力大。",
+        "risk": "乌兹别克斯坦状态或出现爆冷可能。",
         "generatedBy": "GPT",
         "modelName": "openai/gpt-4.1"
       }
@@ -205,25 +205,25 @@
         "topScores": [
           {
             "score": "0-0",
-            "probability": 0.17,
-            "fairOdds": 5.88
+            "probability": 0.19,
+            "fairOdds": 5.26
           },
           {
             "score": "1-1",
-            "probability": 0.13,
-            "fairOdds": 7.69
+            "probability": 0.14,
+            "fairOdds": 7.14
           }
         ],
         "recommendedScores": [
           {
             "score": "0-0",
-            "probability": 0.17,
-            "fairOdds": 5.88
+            "probability": 0.19,
+            "fairOdds": 5.26
           },
           {
             "score": "1-1",
-            "probability": 0.13,
-            "fairOdds": 7.69
+            "probability": 0.14,
+            "fairOdds": 7.14
           }
         ],
         "fairOdds": {
@@ -231,8 +231,8 @@
           "draw": 2.7,
           "loss": 3.23
         },
-        "analysis": "赔率极平，整体进球期望很低，僵局概率最大。",
-        "risk": "低进球预期下偶发失误可决定胜负。",
+        "analysis": "两队实力接近，进球预期偏低，平局概率高。",
+        "risk": "某方早进球打破僵局会拉高分出胜负概率。",
         "generatedBy": "GPT",
         "modelName": "openai/gpt-4.1"
       }
@@ -264,18 +264,18 @@
         "lossOdds": 1.14,
         "margin": 0.0387,
         "totalLine": 3.5,
-        "overOdds": 2.3,
+        "overOdds": 2.35,
         "underOdds": 1.61
       },
       "prediction": {
         "win": 0.04,
         "draw": 0.12,
         "loss": 0.84,
-        "homeXg": 0.49,
-        "awayXg": 2.78,
-        "totalXg": 3.26,
-        "over25": 0.6334,
-        "btts": 0.366,
+        "homeXg": 0.48,
+        "awayXg": 2.76,
+        "totalXg": 3.24,
+        "over25": 0.6288,
+        "btts": 0.3599,
         "pick": "负",
         "cover": "负",
         "confidence": "强",
@@ -283,25 +283,25 @@
         "topScores": [
           {
             "score": "0-3",
-            "probability": 0.21,
-            "fairOdds": 4.76
+            "probability": 0.16,
+            "fairOdds": 6.25
           },
           {
             "score": "0-2",
-            "probability": 0.16,
-            "fairOdds": 6.25
+            "probability": 0.13,
+            "fairOdds": 7.69
           }
         ],
         "recommendedScores": [
           {
             "score": "0-3",
-            "probability": 0.21,
-            "fairOdds": 4.76
+            "probability": 0.16,
+            "fairOdds": 6.25
           },
           {
             "score": "0-2",
-            "probability": 0.16,
-            "fairOdds": 6.25
+            "probability": 0.13,
+            "fairOdds": 7.69
           }
         ],
         "fairOdds": {
@@ -309,8 +309,8 @@
           "draw": 8.33,
           "loss": 1.19
         },
-        "analysis": "阿根廷压倒性实力，市场、进球优势极大。",
-        "risk": "大胜设定带来输半风险，下盘平衡需注意。",
+        "analysis": "阿根廷实力极大优势，竞彩赔率与期望一致。",
+        "risk": "阿根廷大幅轮换或效率不佳会降低获胜幅度。",
         "generatedBy": "GPT",
         "modelName": "openai/gpt-4.1"
       }
