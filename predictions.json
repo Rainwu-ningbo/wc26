@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T16:18:27+08:00",
+  "generatedAt": "2026-06-27T18:47:41+08:00",
   "timezone": "Asia/Shanghai",
   "sourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260611-20260628&limit=100",
   "matches": [
@@ -25,23 +25,23 @@
       },
       "market": {
         "source": "DraftKings",
-        "winOdds": 1.87,
-        "drawOdds": 3.2,
-        "lossOdds": 5.0,
-        "margin": 0.0474,
+        "winOdds": 1.91,
+        "drawOdds": 3.15,
+        "lossOdds": 4.9,
+        "margin": 0.0454,
         "totalLine": 2.5,
         "overOdds": 2.35,
-        "underOdds": 1.61
+        "underOdds": 1.59
       },
       "prediction": {
-        "win": 0.52,
-        "draw": 0.28,
+        "win": 0.51,
+        "draw": 0.29,
         "loss": 0.2,
-        "homeXg": 1.47,
-        "awayXg": 0.82,
-        "totalXg": 2.29,
-        "over25": 0.402,
-        "btts": 0.4415,
+        "homeXg": 1.45,
+        "awayXg": 0.83,
+        "totalXg": 2.28,
+        "over25": 0.3987,
+        "btts": 0.442,
         "pick": "胜",
         "cover": "胜/平",
         "confidence": "中",
@@ -54,8 +54,8 @@
           },
           {
             "score": "2-0",
-            "probability": 0.11,
-            "fairOdds": 9.09
+            "probability": 0.1,
+            "fairOdds": 10.0
           }
         ],
         "recommendedScores": [
@@ -66,17 +66,17 @@
           },
           {
             "score": "2-0",
-            "probability": 0.11,
-            "fairOdds": 9.09
+            "probability": 0.1,
+            "fairOdds": 10.0
           }
         ],
         "fairOdds": {
-          "win": 1.92,
-          "draw": 3.57,
+          "win": 1.96,
+          "draw": 3.45,
           "loss": 5.0
         },
-        "analysis": "克罗地亚实力和控场稍强于加纳，赔率支持主胜。",
-        "risk": "加纳反击与世界赛冷门风险较高。",
+        "analysis": "克罗地亚实力略优且进攻数据占优，加纳防守存隐忧。",
+        "risk": "克罗地亚攻坚不足，世界杯爆冷风险较高。",
         "generatedBy": "GPT",
         "modelName": "openai/gpt-4.1"
       }
@@ -132,8 +132,8 @@
           },
           {
             "score": "0-2",
-            "probability": 0.14,
-            "fairOdds": 7.14
+            "probability": 0.13,
+            "fairOdds": 7.69
           }
         ],
         "recommendedScores": [
@@ -144,8 +144,8 @@
           },
           {
             "score": "0-2",
-            "probability": 0.14,
-            "fairOdds": 7.14
+            "probability": 0.13,
+            "fairOdds": 7.69
           }
         ],
         "fairOdds": {
@@ -153,8 +153,8 @@
           "draw": 7.69,
           "loss": 1.23
         },
-        "analysis": "英格兰攻防实力大幅领先，赔率非常支持客胜。",
-        "risk": "世界大赛偶发冷门与英格兰防守轮换可能。",
+        "analysis": "赔率悬殊，英格兰全面压制，防守压力小。",
+        "risk": "如英格兰轮换，进球数或下修，赛会不确定性。",
         "generatedBy": "GPT",
         "modelName": "openai/gpt-4.1"
       }
@@ -181,23 +181,23 @@
       },
       "market": {
         "source": "公开市场",
-        "winOdds": 3.45,
+        "winOdds": 3.55,
         "drawOdds": 3.8,
-        "lossOdds": 2.05,
-        "margin": 0.0408,
+        "lossOdds": 2.0,
+        "margin": 0.0448,
         "totalLine": 2.5,
-        "overOdds": 1.8,
-        "underOdds": 2.0
+        "overOdds": 1.77,
+        "underOdds": 2.05
       },
       "prediction": {
-        "win": 0.27,
-        "draw": 0.27,
-        "loss": 0.46,
+        "win": 0.26,
+        "draw": 0.26,
+        "loss": 0.48,
         "homeXg": 1.18,
-        "awayXg": 1.61,
-        "totalXg": 2.79,
-        "over25": 0.5288,
-        "btts": 0.5642,
+        "awayXg": 1.65,
+        "totalXg": 2.83,
+        "over25": 0.5383,
+        "btts": 0.5692,
         "pick": "负",
         "cover": "负/胜",
         "confidence": "谨慎",
@@ -205,34 +205,34 @@
         "topScores": [
           {
             "score": "1-2",
-            "probability": 0.11,
-            "fairOdds": 9.09
+            "probability": 0.1,
+            "fairOdds": 10.0
           },
           {
             "score": "0-1",
-            "probability": 0.09,
-            "fairOdds": 11.11
+            "probability": 0.08,
+            "fairOdds": 12.5
           }
         ],
         "recommendedScores": [
           {
             "score": "1-2",
-            "probability": 0.11,
-            "fairOdds": 9.09
+            "probability": 0.1,
+            "fairOdds": 10.0
           },
           {
             "score": "0-1",
-            "probability": 0.09,
-            "fairOdds": 11.11
+            "probability": 0.08,
+            "fairOdds": 12.5
           }
         ],
         "fairOdds": {
-          "win": 3.7,
-          "draw": 3.7,
-          "loss": 2.17
+          "win": 3.85,
+          "draw": 3.85,
+          "loss": 2.08
         },
-        "analysis": "葡萄牙实力高，进球期待略优，盘口支持客胜。",
-        "risk": "哥伦比亚攻防有韧劲，小组赛爆冷可能。",
+        "analysis": "葡萄牙赔率明显占优，进攻天赋突出，但防线或有波动。",
+        "risk": "哥伦比亚自适应能力强，小组压力赛果波动性高。",
         "generatedBy": "GPT",
         "modelName": "openai/gpt-4.1"
       }
@@ -259,23 +259,23 @@
       },
       "market": {
         "source": "公开市场",
-        "winOdds": 1.62,
-        "drawOdds": 4.2,
-        "lossOdds": 5.5,
-        "margin": 0.0353,
+        "winOdds": 1.61,
+        "drawOdds": 4.1,
+        "lossOdds": 5.75,
+        "margin": 0.0405,
         "totalLine": 2.5,
         "overOdds": 2.1,
         "underOdds": 1.74
       },
       "prediction": {
-        "win": 0.59,
+        "win": 0.6,
         "draw": 0.25,
-        "loss": 0.16,
-        "homeXg": 1.72,
-        "awayXg": 0.79,
-        "totalXg": 2.51,
-        "over25": 0.4587,
-        "btts": 0.4558,
+        "loss": 0.15,
+        "homeXg": 1.73,
+        "awayXg": 0.77,
+        "totalXg": 2.5,
+        "over25": 0.4568,
+        "btts": 0.4508,
         "pick": "胜",
         "cover": "胜/平",
         "confidence": "中",
@@ -283,8 +283,8 @@
         "topScores": [
           {
             "score": "2-0",
-            "probability": 0.14,
-            "fairOdds": 7.14
+            "probability": 0.13,
+            "fairOdds": 7.69
           },
           {
             "score": "1-0",
@@ -295,8 +295,8 @@
         "recommendedScores": [
           {
             "score": "2-0",
-            "probability": 0.14,
-            "fairOdds": 7.14
+            "probability": 0.13,
+            "fairOdds": 7.69
           },
           {
             "score": "1-0",
@@ -305,12 +305,12 @@
           }
         ],
         "fairOdds": {
-          "win": 1.69,
+          "win": 1.67,
           "draw": 4.0,
-          "loss": 6.25
+          "loss": 6.67
         },
-        "analysis": "民主刚果进攻占优，赔率和预期进球支持主胜。",
-        "risk": "乌兹别克斯坦防守反击带来悬念。",
+        "analysis": "民主刚果控场与火力均优，主场氛围利好。",
+        "risk": "刚果前场效率波动，乌兹别克偶有顽强表现。",
         "generatedBy": "GPT",
         "modelName": "openai/gpt-4.1"
       }
@@ -337,49 +337,49 @@
       },
       "market": {
         "source": "公开市场",
-        "winOdds": 4.2,
+        "winOdds": 4.3,
         "drawOdds": 2.1,
         "lossOdds": 3.0,
-        "margin": 0.0476,
+        "margin": 0.0421,
         "totalLine": 1.5,
-        "overOdds": 1.71,
-        "underOdds": 2.1
+        "overOdds": 1.69,
+        "underOdds": 2.15
       },
       "prediction": {
         "win": 0.28,
         "draw": 0.36,
         "loss": 0.36,
-        "homeXg": 0.77,
-        "awayXg": 0.91,
-        "totalXg": 1.68,
-        "over25": 0.2375,
-        "btts": 0.3311,
+        "homeXg": 0.78,
+        "awayXg": 0.93,
+        "totalXg": 1.71,
+        "over25": 0.2448,
+        "btts": 0.3377,
         "pick": "平",
         "cover": "平/负",
         "confidence": "中",
-        "topScore": "1-1",
+        "topScore": "0-0",
         "topScores": [
           {
-            "score": "1-1",
-            "probability": 0.15,
-            "fairOdds": 6.67
+            "score": "0-0",
+            "probability": 0.18,
+            "fairOdds": 5.56
           },
           {
-            "score": "0-0",
-            "probability": 0.13,
-            "fairOdds": 7.69
+            "score": "1-1",
+            "probability": 0.12,
+            "fairOdds": 8.33
           }
         ],
         "recommendedScores": [
           {
-            "score": "1-1",
-            "probability": 0.15,
-            "fairOdds": 6.67
+            "score": "0-0",
+            "probability": 0.18,
+            "fairOdds": 5.56
           },
           {
-            "score": "0-0",
-            "probability": 0.13,
-            "fairOdds": 7.69
+            "score": "1-1",
+            "probability": 0.12,
+            "fairOdds": 8.33
           }
         ],
         "fairOdds": {
@@ -387,8 +387,8 @@
           "draw": 2.78,
           "loss": 2.78
         },
-        "analysis": "赔率接近且预期进球偏低，倾向平。",
-        "risk": "奥地利或阿尔及利亚边锋单点爆发。",
+        "analysis": "赔率平局最高，进球期望极低，双方防守优先。",
+        "risk": "若有早球入账，反转空间变大。",
         "generatedBy": "GPT",
         "modelName": "openai/gpt-4.1"
       }
@@ -425,8 +425,8 @@
       },
       "prediction": {
         "win": 0.04,
-        "draw": 0.13,
-        "loss": 0.83,
+        "draw": 0.12,
+        "loss": 0.84,
         "homeXg": 0.52,
         "awayXg": 2.76,
         "totalXg": 3.28,
@@ -439,8 +439,8 @@
         "topScores": [
           {
             "score": "0-3",
-            "probability": 0.18,
-            "fairOdds": 5.56
+            "probability": 0.16,
+            "fairOdds": 6.25
           },
           {
             "score": "0-2",
@@ -451,8 +451,8 @@
         "recommendedScores": [
           {
             "score": "0-3",
-            "probability": 0.18,
-            "fairOdds": 5.56
+            "probability": 0.16,
+            "fairOdds": 6.25
           },
           {
             "score": "0-2",
@@ -462,11 +462,11 @@
         ],
         "fairOdds": {
           "win": 25.0,
-          "draw": 7.69,
-          "loss": 1.2
+          "draw": 8.33,
+          "loss": 1.19
         },
-        "analysis": "阿根廷全面领先，市场压倒性支持客胜。",
-        "risk": "过度轮换或早进球后控场放缓。",
+        "analysis": "市场一边倒，阿根廷实力断层，约旦难以进球。",
+        "risk": "阿根廷或轮换阵容，进球数受影响，有沟通变数。",
         "generatedBy": "GPT",
         "modelName": "openai/gpt-4.1"
       }
