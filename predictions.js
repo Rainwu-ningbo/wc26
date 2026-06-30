@@ -1,1 +1,1 @@
-window.WORLD_CUP_DATA = {"generatedAt":"2026-06-30T14:33:32+08:00","timezone":"Asia/Shanghai","sourceUrl":"https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260611-20260628&limit=100","matches":[]};
+window.WORLD_CUP_DATA = {"generatedAt":"2026-06-30T18:18:56+08:00","timezone":"Asia/Shanghai","sourceUrl":"https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260611-20260628&limit=100","matches":[]};
